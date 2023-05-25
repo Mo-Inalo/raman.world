@@ -9,8 +9,8 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
            class="navbar-brand  ">
             <img
                 class="d-block align-top"
-                src ="/images/logo2.png "
-                width="200px" height="100px"
+                src ="/images/ramanlogo.png "
+                width="100px" height="100px"
                 alt=""
             />
 
@@ -43,12 +43,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                         Home
                     </a>
                 </li>
-                <li class="navbar-item   ">
-                    <a href="/studio.php" class="nav-link text-light
-                    <?php echo ($page == 'studio') ? 'active' :''?>">
-                        Studio
-                    </a>
-                </li>
+
                 <li class="navbar-item dropdown
                 <?php echo ($page == 'biography' || $page =='motivation' || $page =='study') ? 'active' :''?>">
                     <a href="#"
@@ -58,25 +53,25 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                        data-bs-toggle="dropdown"
                        aria-expanded="false"
                     >
-                        About Me
+                        About Raman
                     </a>
                     <ul class="dropdown-menu dropdowncolor" aria-labelledby="navbarDropdown "  >
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'biography') ? 'active' :''?>" href="/biography.php">Biography</a></li>
+                        <?php echo ($page == 'biography') ? 'active' :''?>" href="#">Biography</a></li>
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'motivation') ? 'active' :''?>" href="/motivation.php">Motivation</a></li>
+                        <?php echo ($page == 'motivation') ? 'active' :''?>" href="#">Motivation</a></li>
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'study') ? 'active' :''?>" href="/study.php">Study</a></li>
+                        <?php echo ($page == 'study') ? 'active' :''?>" href="#">Study</a></li>
                     </ul>
                 </li>
                 <li class="navbar-item  ">
-                    <a href="/projects.php" class="nav-link text-light
+                    <a href="#" class="nav-link text-light
                     <?php echo ($page == 'projects') ? 'active' :''?>">
                         Projects
                     </a>
                 </li>
                 <li class="navbar-item ">
-                    <a href="/contact.php" class="nav-link text-light
+                    <a href="#" class="nav-link text-light
                     <?php echo ($page == 'contact') ? 'active' :''?>">
                         Contact
                     </a>
