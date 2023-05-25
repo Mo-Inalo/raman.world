@@ -7,7 +7,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raman e.v. | <?php echo $page == 'index'? $page='homepage':$page ?></title>
+    <title>Raman e.V. | <?php echo $page == 'index'? $page='Homepage':$page ?></title>
     <link rel="icon" type="image/x-icon" href="/images/logo3.png">
 
     <!-- css -->
