@@ -58,7 +58,7 @@ include "templates/nav.php"
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Teilen Sie uns bitte Ihr Anliegen mit.." style="height:250px" required></textarea>
 
-    <input type="submit" value="Submit" style="background: rgba(44,44,44,0.78)">
+    <input type="submit" value="Submit" ">
 
 
 </div>
