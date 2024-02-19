@@ -64,8 +64,9 @@ include "templates/nav.php"
             <input type="text" id="nname" name="Nachname" placeholder="Geben Sie bitte Ihren Nachnamen ein.." required>
 
             <label for="Gtag">Geburtsdatum*</label><br>
-            <input type="date" id="Gtag" name="Geburtsdatum"  required>
+            <input type="date" id="Gtag" name="Geburtsdatum" required>
 
+            <br>
             <label for="Gort">Geburtsort/Stadt*</label>
             <input type="text" id="Gort" name="Geburtsort/Stadt" placeholder="Geben Sie bitte Ihren Geburtsort ein.." required>
 
