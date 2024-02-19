@@ -1,10 +1,14 @@
 :root {
-    --placeholder : #1f1f1f;
+    --placeholder : rgb(31, 31, 31);
 }
 
 
 .mynavcolor{
-    background-color: rgba(8, 65, 112, 0.96);
+    background-color: rgb(129, 141, 22);
+}
+
+.pagecolor {
+     background-color: rgba(129, 141, 22, 0.8);
 }
 
 .dropdowncolor {
@@ -21,9 +25,7 @@
     background-color: #504e4e;
 }
 
-.pagecolor {
-    background-color: rgba(134, 162, 222, 0.46);
-}
+
 
 .breaking {
     background-color: rgba(106, 108, 108, 0.99);
@@ -42,7 +44,8 @@
 
 .copyright{
     font-weight: bold;
-    background-color: rgb(134, 162, 222);
+
+    background-color: rgba(134, 162, 222, 0.46);
 }
 .centeredimg {
     display: block;
@@ -88,14 +91,11 @@
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    background-color: rgba(8, 79, 182, 0.16);
-
-
-
+input[type=text],input[type=date],select, textarea {
+    background-color: rgba(129, 141, 22, 0.28) !important;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
-    border: 1px solid rgba(0, 0, 0, 0.84); /* Gray border */
+    border: 1px solid rgba(133, 135, 136, 0.73); /* Gray border */
     border-radius: 5px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
@@ -118,8 +118,9 @@ textarea::placeholder{
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: rgba(11, 51, 136, 0.46) !important;
-    color: black;
+
+    background-color: rgba(129, 141, 22); !important;
+    color: #1f1f1f;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -127,14 +128,12 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #0f2e93;
-}
+
 
 /* Add a background color and some padding around the form */
 .containercontact {
     border-radius: 5px;
-    background-color: rgba(134, 162, 222, 0.46);
+    background-color: rgba(198, 198, 215, 0.46);
     padding: 20px;
 }
 
@@ -262,5 +261,19 @@ input[type=submit]:hover {
     /* Make all right containers behave like the left ones */
     .right {
         left: 0%;
+    }
+}
+
+#satzunglink{
+    font-weight : bold ;
+    a:link, a:visited {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+
+    a:hover {
+        color: rgba(255, 0, 0, 0.78);
+        text-decoration: underline;
     }
 }

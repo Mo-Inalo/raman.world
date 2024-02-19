@@ -1,7 +1,7 @@
-<!-- Grid container -->
+
 
 <!-- Copyright -->
-<div class="text-center p-2 copyright" style="">
+<div class="text-center p-2 copyright" >
     <span id="year"></span><span> - Copyright ©</span>
     <a href="http://inalo.me/" target="_blank" rel="noopener noreferrer" >
         <img src="/images/inalologo.png" style="width: 70px; height: 30px" alt="">

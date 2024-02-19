@@ -76,7 +76,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                     </a>
                     <ul class="dropdown-menu dropdowncolor" aria-labelledby="navbarDropdown "  >
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/satung.php">Satzung</a></li>
+                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/satzung.php">Satzung</a></li>
                         <li><a class="dropdown-item text-light
                         <?php echo ($page == 'archive') ? 'active' :''?>" href="/archive.php">Archive</a></li>
 
