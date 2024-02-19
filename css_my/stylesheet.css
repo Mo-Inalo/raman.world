@@ -118,8 +118,8 @@ textarea::placeholder{
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: rgba(11, 51, 136, 0.46) !important;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
