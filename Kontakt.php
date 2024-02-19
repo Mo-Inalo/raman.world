@@ -12,13 +12,13 @@ include "templates/nav.php"
 <div class="containercontact">
 
     <div   class="p-md-5" style="max-width: 880px ; margin-left: auto; margin-right: auto">
-        <h4 style = "text-align: justify ; display: block"  >
+        <h5 style = "text-align: justify ; display: block"  >
             Wir freuen uns über Ihr Interesse an unserem Verein und stehen Ihnen gerne zur Verfügung. Bitte nutzen Sie
             das untenstehende Formular, um mit uns in Kontakt zu treten. Teilen Sie uns Ihre Fragen, Anregungen, oder
             sonstige Anliegen mit. Unser Team wird sich bemühen, Ihre Nachricht so schnell wie möglich zu bearbeiten
             und Ihnen zu antworten.  Bitte füllen Sie alle erforderlichen Felder aus, damit wir Ihnen bestmöglich helfen können.
             Vielen Dank für Ihre Kontaktaufnahme und Ihr Engagement für den RAMAN e.V.!
-        </h4>
+        </h5>
     </div>
 
     <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
