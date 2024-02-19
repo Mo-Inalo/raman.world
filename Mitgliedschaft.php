@@ -757,7 +757,8 @@ include "templates/nav.php"
 
 
                         <label>
-                            <input style="font-size: 13px" type="text" name="Monatliches_Beitrag_Anderer_Betrag" placeholder="Anderer Betrag..">
+                            <input style="font-size: 13px" type="text" name="Monatliches_Beitrag_Anderer_Betrag" placeholder="Anderer Betrag (z.b. 0,- €)
+">
                         </label>
 
 
