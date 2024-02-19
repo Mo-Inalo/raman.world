@@ -21,7 +21,7 @@ include "templates/nav.php"
         </h5>
     </div>
 
-    <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
+    <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
 
         <label>
             <select name="title" required

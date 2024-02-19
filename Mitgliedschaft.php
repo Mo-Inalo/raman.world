@@ -37,7 +37,7 @@ include "templates/nav.php"
 
 
 
-        <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+        <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p>Hiermit beantrage ich . . .</p>
             <label>
                 <select name="Titel" required
