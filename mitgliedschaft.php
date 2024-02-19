@@ -11,9 +11,9 @@ include "templates/nav.php"
 
     <div class="containercontact">
 
-        <div   class="p-md-5" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
-            <h5 style = "text-align: justify ; display: block"  >
-                Herzlich willkommen zu unserem Mitgliedschaftsportal! Wir freuen uns sehr über Ihr Interesse daran, Teil
+        <div   class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+            <p style = "text-align: justify ; display: block"  >
+                Herzlich willkommen zu unserem <span style="font-weight: bold">Mitgliedschaftsportal</span>! Wir freuen uns sehr über Ihr Interesse daran, Teil
                 unserer Gemeinschaft zu werden. Bitte nutzen Sie das folgende Formular, um Ihren Antrag auf Mitgliedschaft
                 einzureichen. Wir bitten Sie, alle erforderlichen Informationen sorgfältig auszufüllen, damit wir Ihren
                 Antrag so schnell wie möglich bearbeiten können.
@@ -24,26 +24,25 @@ include "templates/nav.php"
 
                 Bei Fragen oder Problemen stehen wir Ihnen gerne zur Verfügung. Zögern Sie nicht, uns zu kontaktieren,
                 und wir helfen Ihnen gerne weiter.
-                <span id="satzunglink">
+                <span class="satzunglink">
                     Bevor Sie mit Ihrem Antrag starten, lesen Sie bitte unsere <a href="satzung.php" target="_blank" >Satzung</a> sorgfältig.
                 </span>
-
                 Vielen Dank für Ihr Vertrauen in unsere Organisation. Wir freuen uns darauf, Sie kennenzulernen und mit Ihnen zusammenzuarbeiten!
-                <br>
-                <br>
-                Ihr RAMAN Team!
-            </h5>
+            </p>
+            <p>Ihr RAMAN Team!</p>
+            <hr style="width:40%; margin-left: auto; margin-right: auto">
         </div>
 
-        <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-5" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
-            <p>Hiermit beantrage ich</p>
-            <select name="title" required
+
+
+        <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+            <p>Hiermit beantrage ich . . .</p>
+            <select name="Titel" required
                     onfocus="this.size=8;"
                     onblur="this.size=0;"
                     onchange="this.size=1;
                 this.blur()">
-                <option>Bitte wählen Sie einen Titel aus: </option>
-                <option>Herr </option>
+                <option selected>Herr </option>
                 <option>Frau</option>
                 <option>Diverse</option>
                 <option>Dr</option>
@@ -54,19 +53,19 @@ include "templates/nav.php"
 
 
 
-            <label for="vname">Vorname</label>
+            <label for="vname">Vorname*</label>
             <input type="text" id="vname" name="Vorname" placeholder="Geben Sie bitte Ihren Vornamen ein .." required>
 
-            <label for="nname">Nachname</label>
+            <label for="nname">Nachname*</label>
             <input type="text" id="nname" name="Nachname" placeholder="Geben Sie bitte Ihren Nachnamen ein.." required>
 
-            <label for="Gtag">Geburtsdatum</label><br>
-            <input type="date" id="Gtag" name="Geburtstag"  required>
+            <label for="Gtag">Geburtsdatum*</label><br>
+            <input type="date" id="Gtag" name="Geburtsdatum"  required>
 
-            <label for="Gort">Geburtsort/Stadt</label>
+            <label for="Gort">Geburtsort/Stadt*</label>
             <input type="text" id="Gort" name="Geburtsort/Stadt" placeholder="Geben Sie bitte Ihren Geburtsort ein.." required>
 
-            <label for="Gland">Geburtsland</label>
+            <label for="Gland">Geburtsland*</label>
             <select name="Geburtsland" id="Gland" required
                     onfocus="this.size=8;"
                     onblur="this.size=0;"
@@ -378,7 +377,7 @@ include "templates/nav.php"
             </select>
 
 
-            <label for="Nationa">Nationalität</label>
+            <label for="Nationa">Nationalität*</label>
             <select name="Nationalität" id="Nationa" required
                     onfocus="this.size=8;"
                     onblur="this.size=0;"
@@ -689,45 +688,123 @@ include "templates/nav.php"
                 </optgroup>
             </select>
 
-            <label for="adresse">Adresse</label>
-            <input type="text" id="adresse" name="Adresse" placeholder="Geben Sie bitte Ihre Adresse ein..">
+            <label for="adresse">Adresse*</label>
+            <input type="text" id="adresse" name="Adresse" placeholder="Geben Sie bitte Ihre Adresse ein.." required>
 
 
-            <label for="tele">Handynummer</label>
+            <label for="tele">Handynummer*</label>
             <input type="text" id="tele" name="Handynummer" placeholder="Geben Sie bitte Ihre Telefonnummer ein.." required>
 
 
-            <label for="festnetz">Festnetznummer (optional)</label>
+            <label for="festnetz">Festnetznummer</label>
             <input type="text" id="festnetz" name="Festnetznummer" placeholder="Geben Sie bitte Ihre Festnetznummer ein.." >
 
-            <label for="festnetz">Faxnummer (optional)</label>
+            <label for="festnetz">Faxnummer</label>
             <input type="text" id="festnetz" name="Faxnummer" placeholder="Geben Sie bitte Ihre Faxnummer ein.." >
 
 
-            <label for="email">E-Mail</label>
-            <input type="text" id="email" name="E-mail" placeholder="Geben Sie bitte Ihre E-Mail ein.." required>
+            <label for="email">E-Mail*</label>
+            <input type="text" id="email" name="E-Mail" placeholder="Geben Sie bitte Ihre E-Mail ein.." required>
 
-            <label for="email">E-Mail</label>
-            <input type="text" id="email" name="E-mail" placeholder="Geben Sie bitte Ihre E-Mail ein.." required>
+            <label for="einrichtung">Universität / Hochschule / Berufskolleg / Schule</label>
+            <input type="text" id="einrichtung" name="Einrichtung" placeholder="Geben Sie bitte Ihre Einrichtung ein.." >
 
 
-            <label for="study">Studiengang</label>
-            <input type="text" id="study" name="Studiengang" placeholder="Geben Sie bitte Ihren Studiengang mit dem angestrbtenn Abschluss ein (Bachelor, Master, Diplom, Magister, Staatsexamen).." style="height: 100px; word-wrap: break-word" required>
+            <label for="study">Ausbildung / Studiengang</label>
+            <textarea id="study" name="Ausbildung/Studiengang" placeholder="Geben Sie bitte Ihre Berufsausbildung, Ihren Studiengang mit dem angestrebten Abschluss (Bachelor, Master, Diplom, Magister, Staatsexamen) mit dem Fachsemester ein.." style="height:100px" ></textarea>
 
-            <label for="subject">Nachricht (optional)</label>
-            <textarea id="subject" name="subject" placeholder="Teilen Sie uns bitte Ihre Nachricht/ Ihr Anliegen bei Bedarf mit.." style="height:250px" ></textarea>
 
-            <p>die Mitgliedschaft in RAMAN e.V. und bestätige meinen Antrag mit dem Absenden!</p>
+            <label for="subject">Nachricht</label>
+            <textarea id="subject" name="Nachricht" placeholder="Teilen Sie uns bitte Ihre Nachricht/ Ihr Anliegen bei Bedarf mit.." style="height:250px" ></textarea>
+
+            <p> . . . die Mitgliedschaft in RAMAN e.V. und bestätige meinen Antrag mit dem Absenden!</p>
+
+
+            <label for="art">Art der Mitgliedschaft*</label>
+            <select id="art" name="Art_der_Mitgliedschaft" required
+                    onfocus="this.size=3;"
+                    onblur="this.size=0;"
+                    onchange="this.size=1;
+                this.blur()">
+                <option selected>Ordentliches Mitglied</option>
+                <option>Ehrenamtliches Mitglied</option>
+                <option>Spender</option>
+
+            </select>
+
+            <span>Monatlicher Beitrag*</span>
+
+            <div class="container flex-column">
+                <div class="row row-cols-4">
+                    <div class="col " style="margin: auto">
+                        <input class="form-check-input" type="radio" id="5euro" name="Monatlicher_Beitrag" value="5Euro">
+                        <label for="5euro">5,- €</label>
+                    </div>
+                    <div class="col" style="margin: auto" >
+                         <input class="form-check-input" type="radio" id="10euro" name="Monatlicher_Beitrag" value="10Euro">
+                        <label for="10euro">10,- €</label>
+                    </div>
+                    <div class="col" style="margin: auto">
+                         <input class="form-check-input" type="radio" id="15euro" name="Monatlicher_Beitrag" value="15Euro">
+                        <label for="15euro">15,- €</label>
+                    </div>
+                    <div class="col" style="margin: auto">
+
+
+                        <label>
+                            <input style="font-size: 13px" type="text" name="Monatliches_Beitrag_Anderer_Betrag" placeholder="Anderer Betrag..">
+                        </label>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <hr style="width: 50%; margin-left: 20px">
+
+            <label for="inhaber">Kontoinhaber*</label>
+            <input type="text" id="inhaber" name="Kontoinhaber" placeholder="Geben Sie bitte den Kontoinhaber ein.." required>
+
+            <label for="iban">IBAN*</label>
+            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." required>
+
+            <label for="bic">BIC*</label>
+            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." required>
+
+
+            <label for="bankname">BIC*</label>
+            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required>
+
+            <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" required>
+            <label for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!*</label>
+
+
+            <br>
+
+
+            <hr style="width: 50%; margin-left: 20px">
 
             <input type="checkbox" id="bestaetige" name="Satzung gelesen" value="ja" required>
-            <label for="bestaetige">Hiermit bestätige ich, die Satzung gelesen zu haben!</label>
+            <label for="bestaetige">Hiermit bestätige ich, die Satzung gelesen zu haben!*</label>
             <br>
             <input type="checkbox" id="bestaetige" name="newsletter erhalten" value="ja" >
-            <label for="bestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label>
+            <label for="bestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
+           <br>
+            <h4>Datenschutzhinweis</h4>
+            <p style="text-align: justify">
+                Vorstehende Daten werden nur im Rahmen der Erforderlichkeit von Abrechnung und Betreuung
+                Ihrer Mitgliedschaft bei RAMAN erfasst bzw. verarbeitet. Es erfolgt keine Weitergabe Ihrer
+                persönlichen Daten an Dritte.
+            </p>
 
-            <br>
+
+
+            <span class="satzunglink" style="font-weight: lighter; font-size:15px"> * Pflichtangaben</span>
             <br>
             <input type="submit" value="Absenden" >
+            <br>
+
+            <p class="satzunglink" style="font-weight: lighter; font-size:15px"> Bei technischen Problemen rund um den Antrag bitten wir unseren <a href="mailto:info@raman.world">Admin</a> zu kontaktieren!</p>
 
 
     </div>

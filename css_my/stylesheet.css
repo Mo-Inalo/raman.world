@@ -1,18 +1,20 @@
 :root {
     --placeholder : rgb(31, 31, 31);
+    --maincolor: rgb(129, 141, 22);
+    --secondcolor: rgba(129, 141, 22, 0.8);
 }
 
 
 .mynavcolor{
-    background-color: rgb(129, 141, 22);
+    background-color: var(--maincolor);
 }
 
 .pagecolor {
-     background-color: rgba(129, 141, 22, 0.8);
+     background-color: var(--secondcolor);
 }
 
-.dropdowncolor {
-    background-color: rgba(30, 28, 28, 0.96);
+.dropdowncolor{
+    background-color: var(--secondcolor);
 }
 
 
@@ -22,7 +24,7 @@
 
 .dropdown-menu > li > a:hover {
     background-image: none;
-    background-color: #504e4e;
+    background-color: #7a7878;
 }
 
 
@@ -33,7 +35,7 @@
 }
 
 .socialmeidachannels {
-    background-color: rgba(8, 65, 112, 0.96);
+    background-color: var(--maincolor);
 }
 
 .socialmeidachannelsitemcolor{
@@ -43,9 +45,11 @@
 
 
 .copyright{
+    background-color: rgb(152, 152, 103);
     font-weight: bold;
+    color: black;
 
-    background-color: rgba(134, 162, 222, 0.46);
+
 }
 .centeredimg {
     display: block;
@@ -102,7 +106,36 @@ input[type=text],input[type=date],select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: silver;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
 
 input::placeholder {
 
@@ -264,14 +297,12 @@ input[type=submit] {
     }
 }
 
-#satzunglink{
+.satzunglink{
     font-weight : bold ;
     a:link, a:visited {
         color: #000000;
         text-decoration: underline;
     }
-
-
     a:hover {
         color: rgba(255, 0, 0, 0.78);
         text-decoration: underline;

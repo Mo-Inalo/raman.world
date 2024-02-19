@@ -13,15 +13,6 @@
             ></a>
 
 
-        <!-- soundcloud -->
-        <a
-                class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href="https://soundcloud.com/user-32432553-468769487"
-                role="button"
-                target="_blank" rel="noopener noreferrer"
-                data-mdb-ripple-color="dark"
-        ><i class="fab fa-soundcloud"></i
-            ></a>
 
         <!-- twitter -->
         <a
@@ -35,15 +26,7 @@
 
 
 
-        <!-- amazon -->
-        <a
-                class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href="https://www.amazon.de/music/player/artists/B08VGY3LX9/elende-usiv"
-                role="button"
-                target="_blank" rel="noopener noreferrer"
-                data-mdb-ripple-color="dark"
-        ><i class="fab fa-amazon"></i
-            ></a>
+
 
         <!-- Instagram -->
         <a
@@ -64,24 +47,8 @@
                 data-mdb-ripple-color="dark"
         ><i class="fab fa-youtube"></i
             ></a>
-        <!-- Spotify -->
-        <a
-                class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href="https://open.spotify.com/intl-de/artist/3PHjtebOPjk5Dzrje9Ck2U?si=gUQZJabrTDi_RhthSpDjCg"
-                role="button"
-                target="_blank" rel="noopener noreferrer"
-                data-mdb-ripple-color="dark"
-        ><i class="fab fa-spotify"></i
-            ></a>
-        <!-- apple -->
-        <a
-                class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href=""
-                role="button"
-                target="_blank" rel="noopener noreferrer"
-                data-mdb-ripple-color="dark"
-        ><i class="fab fa-apple"></i
-            ></a>
+
+
 
         <!-- telegram -->
         <a
