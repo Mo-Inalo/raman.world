@@ -9,11 +9,11 @@ include "templates/header.php"
 include "templates/nav.php"
 ?>
 
-<div style="background: url('images/olive.png');" >
+<div  >
 
     <div class="containercontact" >
 
-        <div   class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+        <div   class="p-md-3" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p style = "text-align: justify ; display: block"  >
                 Herzlich willkommen zu unserem <span style="font-weight: bold">Mitgliedschaftsportal</span>! Wir freuen uns sehr über Ihr Interesse daran, Teil
                 unserer Gemeinschaft zu werden. Bitte nutzen Sie das folgende Formular, um Ihren Antrag auf Mitgliedschaft

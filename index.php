@@ -10,6 +10,10 @@ include "templates/nav.php"
 
 <div style="height: 75vh">
 
+    <?php
+    include "templates/baustelle.php"
+    ?>
+
 </div>
 
 <?php
