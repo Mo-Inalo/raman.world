@@ -9,9 +9,9 @@ include "templates/header.php"
 include "templates/nav.php"
 ?>
 
+<div style="background: url('images/olive.png');" >
 
-
-    <div class="containercontact">
+    <div class="containercontact" >
 
         <div   class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p style = "text-align: justify ; display: block"  >
@@ -39,20 +39,22 @@ include "templates/nav.php"
 
         <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p>Hiermit beantrage ich . . .</p>
-            <select name="Titel" required
-                    onfocus="this.size=8;"
-                    onblur="this.size=0;"
-                    onchange="this.size=1;
-                this.blur()">
-                <option selected>Herr </option>
-                <option>Frau</option>
-                <option>Diverse</option>
-                <option>Dr</option>
-                <option>Prof</option>
-                <option>Prof Dr</option>
-                <option>Sonstiges ..</option>
-            </select>
-
+            <label>
+                <select name="Titel" required
+                        onfocus="this.size=8;"
+                        onblur="this.size=0;"
+                        onchange="this.size=1;
+                    this.blur()">
+                    <option selected>Herr </option>
+                    <option>Frau</option>
+                    <option>Diverse</option>
+                    <option>Dr</option>
+                    <option>Prof</option>
+                    <option>Prof Dr</option>
+                    <option>Sonstiges ..</option>
+                </select>
+            </label>
+            <br>
 
 
             <label for="vname">Vorname*</label>
@@ -289,7 +291,7 @@ include "templates/nav.php"
                     <option value="PT">Portugal</option>
                     <option value="PR">Puerto Rico</option>
                 </optgroup>
-                <optgroup label="Q"></option>
+                <optgroup label="Q">
                 </optgroup>
                 <optgroup label="R">
                     <option value="TW">Republik China (Taiwan)</option>
@@ -601,7 +603,7 @@ include "templates/nav.php"
                     <option value="PT">Portugal</option>
                     <option value="PR">Puerto Rico</option>
                 </optgroup>
-                <optgroup label="Q"></option>
+                <optgroup label="Q">
                 </optgroup>
                 <optgroup label="R">
                     <option value="TW">Republik China (Taiwan)</option>
@@ -774,7 +776,7 @@ include "templates/nav.php"
             <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." required>
 
 
-            <label for="bankname">BIC*</label>
+            <label for="bankname">Bank*</label>
             <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required>
 
             <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" required>
@@ -811,6 +813,8 @@ include "templates/nav.php"
 
 
     </div>
+
+</div>
 
 <?php
 include "templates/footer.php"
