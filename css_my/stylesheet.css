@@ -1,6 +1,10 @@
+:root {
+    --placeholder : #1f1f1f;
+}
+
 
 .mynavcolor{
-    background-color: rgba(30, 28, 28, 0.96);
+    background-color: rgba(8, 65, 112, 0.96);
 }
 
 .dropdowncolor {
@@ -18,7 +22,7 @@
 }
 
 .pagecolor {
-    background-color: rgba(133, 135, 136, 0.99);
+    background-color: rgba(134, 162, 222, 0.46);
 }
 
 .breaking {
@@ -27,7 +31,7 @@
 }
 
 .socialmeidachannels {
-    background-color: rgba(30, 28, 28, 0.96);
+    background-color: rgba(8, 65, 112, 0.96);
 }
 
 .socialmeidachannelsitemcolor{
@@ -37,8 +41,8 @@
 
 
 .copyright{
-
-    background-color: rgba(133, 135, 136, 0.99);
+    font-weight: bold;
+    background-color: rgb(134, 162, 222);
 }
 .centeredimg {
     display: block;
@@ -85,15 +89,32 @@
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+    background-color: rgba(8, 79, 182, 0.16);
+
+
+
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    border: 1px solid rgba(0, 0, 0, 0.84); /* Gray border */
+    border-radius: 5px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
+
+input::placeholder {
+
+    color: var(--placeholder);
+}
+select::placeholder{
+    color: var(--placeholder);
+}
+textarea::placeholder{
+    color: var(--placeholder);
+}
+
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
@@ -107,13 +128,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0f2e93;
 }
 
 /* Add a background color and some padding around the form */
 .containercontact {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: rgba(134, 162, 222, 0.46);
     padding: 20px;
 }
 

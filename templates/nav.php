@@ -1,12 +1,11 @@
 <?php
 $page = basename($_SERVER['PHP_SELF'],'.php');
 ?>
-
 <nav class=" navbar navbar-expand-md mynavcolor">
     <div class="container">
 
         <a href="/index.php"
-           class="navbar-brand  ">
+           class="navbar-brand">
             <img
                 class="d-block align-top"
                 src ="/images/ramanlogo.png "
@@ -37,15 +36,35 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
         <div class="collapse navbar-collapse justify-content-center text-light "
              id="navbarNav">
             <ul class="navbar-nav text-light ">
-                <li class="navbar-item   ">
+                <li class="navbar-item " >
                     <a href="/index.php" class="nav-link text-light
                     <?php echo ($page == 'index') ? 'active' :''?> ">
                         Home
                     </a>
                 </li>
+                <li class="navbar-item  ">
+                    <a href="/mitgliedschaft.php" class="nav-link text-light
+                    <?php echo ($page == 'mitgliedschaft') ? 'active' :''?>">
+                        Mitgliedschaft
+                    </a>
+                </li>
+                <!--
+                <li class="navbar-item  ">
+                    <a href="/.php" class="nav-link text-light
+                    <?php echo ($page == 'aktivitaeten') ? 'active' :''?>">
+                        Aktivitäten
+                    </a>
+                </li>
 
+                <li class="navbar-item   ">
+                    <a href="/.php" class="nav-link text-light
+                    <?php echo ($page == 'gallerie') ? 'active' :''?>">
+                        Gallerie
+                    </a>
+                </li>
+                -->
                 <li class="navbar-item dropdown
-                <?php echo ($page == 'biography' || $page =='motivation' || $page =='study') ? 'active' :''?>">
+                <?php echo ($page == 'biography' || $page =='projects') ? 'active' :''?>">
                     <a href="#"
                        class="nav-link dropdown-toggle text-light"
                        id="navbarDropdown"
@@ -53,27 +72,21 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                        data-bs-toggle="dropdown"
                        aria-expanded="false"
                     >
-                        About Raman
+                        Über RAMAN
                     </a>
                     <ul class="dropdown-menu dropdowncolor" aria-labelledby="navbarDropdown "  >
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'biography') ? 'active' :''?>" href="#">Biography</a></li>
+                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/satung.php">Satzung</a></li>
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'motivation') ? 'active' :''?>" href="#">Motivation</a></li>
-                        <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'study') ? 'active' :''?>" href="#">Study</a></li>
+                        <?php echo ($page == 'archive') ? 'active' :''?>" href="/archive.php">Archive</a></li>
+
                     </ul>
                 </li>
-                <li class="navbar-item  ">
-                    <a href="#" class="nav-link text-light
-                    <?php echo ($page == 'projects') ? 'active' :''?>">
-                        Projects
-                    </a>
-                </li>
+
                 <li class="navbar-item ">
-                    <a href="#" class="nav-link text-light
+                    <a href="/contact.php" class="nav-link text-light
                     <?php echo ($page == 'contact') ? 'active' :''?>">
-                        Contact
+                        Kontakt
                     </a>
                 </li>
             </ul>
