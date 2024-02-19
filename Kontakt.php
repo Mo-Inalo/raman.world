@@ -23,24 +23,25 @@ include "templates/nav.php"
 
     <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
 
-    <select name="title" required
-            onfocus="this.size=8;"
-            onblur="this.size=0;"
-            onchange="this.size=1;
-                this.blur()">
-        <option>Bitte wählen Sie einen Titel aus: </option>
-        <option>Herr </option
-        <option>Frau</option>
-        <option>Diverse</option>
-        <option>Dr</option>
-        <option>Prof</option>
-        <option>Prof Dr</option>
-        <option>Sonstiges ..</option>
-    </select>
+        <label>
+            <select name="title" required
+                    onfocus="this.size=8;"
+                    onblur="this.size=0;"
+                    onchange="this.size=1;
+                        this.blur()">
+                <option>Bitte wählen Sie einen Titel aus: </option>
+                <option>Herr </option>
+                <option>Frau</option>
+                <option>Diverse</option>
+                <option>Dr</option>
+                <option>Prof</option>
+                <option>Prof Dr</option>
+                <option>Sonstiges ..</option>
+            </select>
+        </label>
 
 
-
-    <label for="fname">First Name</label>
+        <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Geben Sie bitte Ihren Vornamen ein .." required>
 
     <label for="lname">Last Name</label>
