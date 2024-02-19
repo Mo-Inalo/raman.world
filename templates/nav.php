@@ -43,7 +43,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                     </a>
                 </li>
                 <li class="navbar-item  ">
-                    <a href="/mitgliedschaft.php" class="nav-link text-light
+                    <a href="/Mitgliedschaft.php" class="nav-link text-light
                     <?php echo ($page == 'mitgliedschaft') ? 'active' :''?>">
                         Mitgliedschaft
                     </a>
@@ -76,15 +76,15 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                     </a>
                     <ul class="dropdown-menu dropdowncolor" aria-labelledby="navbarDropdown "  >
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/satzung.php">Satzung</a></li>
+                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/Satzung.php">Satzung</a></li>
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'archive') ? 'active' :''?>" href="/archive.php">Archive</a></li>
+                        <?php echo ($page == 'archive') ? 'active' :''?>" href="/Archive.php">Archive</a></li>
 
                     </ul>
                 </li>
 
                 <li class="navbar-item ">
-                    <a href="/contact.php" class="nav-link text-light
+                    <a href="/Kontakt.php" class="nav-link text-light
                     <?php echo ($page == 'contact') ? 'active' :''?>">
                         Kontakt
                     </a>

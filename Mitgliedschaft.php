@@ -1,3 +1,5 @@
+
+
 <?php
 include "templates/header.php"
 ?>
@@ -25,7 +27,7 @@ include "templates/nav.php"
                 Bei Fragen oder Problemen stehen wir Ihnen gerne zur Verfügung. Zögern Sie nicht, uns zu kontaktieren,
                 und wir helfen Ihnen gerne weiter.
                 <span class="satzunglink">
-                    Bevor Sie mit Ihrem Antrag starten, lesen Sie bitte unsere <a href="satzung.php" target="_blank" >Satzung</a> sorgfältig.
+                    Bevor Sie mit Ihrem Antrag starten, lesen Sie bitte unsere <a href="Satzung.php" target="_blank" >Satzung</a> sorgfältig.
                 </span>
                 Vielen Dank für Ihr Vertrauen in unsere Organisation. Wir freuen uns darauf, Sie kennenzulernen und mit Ihnen zusammenzuarbeiten!
             </p>
@@ -35,7 +37,7 @@ include "templates/nav.php"
 
 
 
-        <form action="https://formsubmit.co/m.inalo@hotmail.com" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+        <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p>Hiermit beantrage ich . . .</p>
             <select name="Titel" required
                     onfocus="this.size=8;"
@@ -802,6 +804,7 @@ include "templates/nav.php"
             <span class="satzunglink" style="font-weight: lighter; font-size:15px"> * Pflichtangaben</span>
             <br>
             <input type="submit" value="Absenden" >
+            <br>
             <br>
 
             <p class="satzunglink" style="font-weight: lighter; font-size:15px"> Bei technischen Problemen rund um den Antrag bitten wir unseren <a href="mailto:info@raman.world">Admin</a> zu kontaktieren!</p>
