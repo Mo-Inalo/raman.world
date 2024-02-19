@@ -5,7 +5,7 @@
         <!-- Facebook -->
         <a
                 class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href="https://www.facebook.com/elende.usiv"
+                href="https://www.facebook.com/RamanHSG"
                 target="_blank" rel="noopener noreferrer"
                 role="button"
                 data-mdb-ripple-color="dark"
@@ -14,7 +14,7 @@
 
 
 
-        <!-- twitter -->
+        <!-- twitter
         <a
                 class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
                 href="https://x.com/elendeusiv?s=20"
@@ -26,19 +26,19 @@
 
 
 
-
+-->
 
         <!-- Instagram -->
         <a
                 class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
-                href="https://www.instagram.com/elende.usiv/"
+                href="https://www.instagram.com/raman_e.v/"
                 role="button"
                 target="_blank" rel="noopener noreferrer"
                 data-mdb-ripple-color="dark"
         ><i class="fab fa-instagram"></i
             ></a>
 
-        <!-- Linkedin -->
+        <!-- Linkedin
         <a
                 class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
                 href="https://www.youtube.com/@elendeusiv7372"
@@ -49,8 +49,8 @@
             ></a>
 
 
-
-        <!-- telegram -->
+-->
+        <!-- telegram
         <a
                 class="btn btn-link btn-floating btn-lg socialmeidachannelsitemcolor m-1"
                 href="https://msng.link/o/?https://t.me/Elende_usiv=tg"
@@ -59,6 +59,7 @@
                 data-mdb-ripple-color="dark"
         ><i class="fab fa-telegram"></i
             ></a>
+            -->
     </section>
     <!-- Section: Social media -->
 </div>
