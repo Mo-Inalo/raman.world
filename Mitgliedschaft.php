@@ -758,7 +758,7 @@ include "templates/nav.php"
 
 
                         <label>
-                            <input style="font-size: 13px" type="text" name="Monatliches_Beitrag_Anderer_Betrag" placeholder="Freier Betrag ..">
+                            <input style="font-size: 13px" type="text" name="Monatlicher_Beitrag_Anderer_Betrag" placeholder="Freier Betrag ..">
                         </label>
 
 
@@ -791,11 +791,11 @@ include "templates/nav.php"
             <hr style="width: 50%; margin-right: auto; margin-left: auto">
 
             <br>
-            <input type="checkbox" id="bestaetige" name="Satzung gelesen" value="ja" required>
+            <input type="checkbox" id="bestaetige" name="Satzung gelesen?" value="Ja" required>
             <label for="bestaetige">Hiermit bestätige ich, die Satzung gelesen zu haben!*</label>
             <br>
-            <input type="checkbox" id="bestaetige" name="newsletter erhalten" value="ja" >
-            <label for="bestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
+            <input type="checkbox" id="newsbestaetige" name="Newsletter erhalten?" value="Ja" >
+            <label for="newsbestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
            <br>
             <h4>Datenschutzhinweis</h4>
             <p style="text-align: justify">
