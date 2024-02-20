@@ -25,7 +25,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
             aria-label="Toggle navigation"
         >
 
-       <span class="navbar-toggler-icon">
+       <span class="navbar-toggler-icon" style="display: contents">
            <i class="fas fa-bars navbar-toggler-iconstyle" ></i>
         </span>
 
