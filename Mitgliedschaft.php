@@ -19,17 +19,12 @@ include "templates/nav.php"
                 unserer Gemeinschaft zu werden. Bitte nutzen Sie das folgende Formular, um Ihren Antrag auf Mitgliedschaft
                 einzureichen. Wir bitten Sie, alle erforderlichen Informationen sorgfältig auszufüllen, damit wir Ihren
                 Antrag so schnell wie möglich bearbeiten können.
-
-                Ihre Mitgliedschaft bedeutet für uns nicht nur eine Erweiterung unserer Gemeinschaft, sondern auch eine
-                wertvolle Möglichkeit, gemeinsam mit Ihnen unsere Ziele zu erreichen und unsere Vision zu verwirklichen.
                 Wir schätzen Ihre Unterstützung und Ihr Engagement und freuen uns darauf, Sie bald als offizielles Mitglied begrüßen zu dürfen.
 
-                Bei Fragen oder Problemen stehen wir Ihnen gerne zur Verfügung. Zögern Sie nicht, uns zu kontaktieren,
-                und wir helfen Ihnen gerne weiter.
                 <span class="satzunglink">
                     Bevor Sie mit Ihrem Antrag starten, lesen Sie bitte unsere <a href="Satzung.php" target="_blank" >Satzung</a> sorgfältig.
                 </span>
-                Vielen Dank für Ihr Vertrauen in unsere Organisation. Wir freuen uns darauf, Sie kennenzulernen und mit Ihnen zusammenzuarbeiten!
+                Vielen Dank für Ihr Vertrauen in unsere Organisation.
             </p>
             <p>Ihr RAMAN Team!</p>
             <hr style="width:40%; margin-left: auto; margin-right: auto">
