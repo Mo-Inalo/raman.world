@@ -741,20 +741,20 @@ include "templates/nav.php"
             <span>Monatlicher Beitrag*</span>
 
             <div class="container flex-column">
-                <div class="row row-cols-4">
-                    <div class="col " style="margin: auto">
+                <div class="row">
+                    <div class="col-sm-3 " style="margin: auto">
                         <input class="form-check-input" type="radio" id="5euro" name="Monatlicher_Beitrag" value="5Euro">
                         <label for="5euro">5,- €</label>
                     </div>
-                    <div class="col" style="margin: auto" >
+                    <div class="col-sm-3" style="margin: auto" >
                          <input class="form-check-input" type="radio" id="10euro" name="Monatlicher_Beitrag" value="10Euro">
                         <label for="10euro">10,- €</label>
                     </div>
-                    <div class="col" style="margin: auto">
+                    <div class="col-sm-3" style="margin: auto">
                          <input class="form-check-input" type="radio" id="15euro" name="Monatlicher_Beitrag" value="15Euro">
                         <label for="15euro">15,- €</label>
                     </div>
-                    <div class="col" style="margin: auto">
+                    <div class="col-md-3" style="margin: auto">
 
 
                         <label>
