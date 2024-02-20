@@ -792,7 +792,7 @@ include "templates/nav.php"
 
             <br>
             <input type="checkbox" id="bestaetige" name="Satzung gelesen?" value="Ja" required>
-            <label for="bestaetige">Hiermit bestätige ich, die Satzung gelesen zu haben!*</label>
+            <label for="bestaetige">Hiermit bestätige ich, die <span class="satzunglink"><a href="Satzung.php" target="_blank" >Satzung</a></span> gelesen zu haben!*</label>
             <br>
             <input type="checkbox" id="newsbestaetige" name="Newsletter erhalten?" value="Ja" >
             <label for="newsbestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
@@ -806,7 +806,10 @@ include "templates/nav.php"
 
 
 
-            <span class="satzunglink" style="font-weight: lighter; font-size:15px"> * Pflichtangaben</span>
+            <span  style="font-weight: lighter; font-size:15px"> * Pflichtangaben</span>
+            <br>
+            <br>
+            <span  >Indem Sie dieses Formular absenden, erklären Sie sich damit einverstanden, dass Ihre Eingaben als digitale Unterschrift gelten.</span>
             <br>
             <input type="submit" value="Absenden" >
             <br>
