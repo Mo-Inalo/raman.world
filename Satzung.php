@@ -14,6 +14,7 @@ include "templates/nav.php"
         <div class="row-md-2">
             <div class="col p-1">
                 <center>
+                    <br>
                     <h1 style="font-family: Calibri,Andalus"> Satzung - RAMAN e.V. </h1>
                     <p style="text-align: justify">
                         Herzlich willkommen zur Satzung unseres Vereins!
