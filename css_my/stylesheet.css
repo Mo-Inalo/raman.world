@@ -308,3 +308,7 @@ input[type=submit] {
         text-decoration: underline;
     }
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--bs-dropdown-link-hover-bg)!important;
+}
