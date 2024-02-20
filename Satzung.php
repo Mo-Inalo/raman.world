@@ -12,7 +12,7 @@ include "templates/nav.php"
 
     <div class="container" style="max-width: 900px; margin-right: auto; margin-left: auto">
         <div class="row-md-2">
-            <div class="col p-5">
+            <div class="col p-1">
                 <center>
                     <h1 style="font-family: Calibri,Andalus"> Satzung - RAMAN e.V. </h1>
                     <p style="text-align: justify">
@@ -41,13 +41,14 @@ include "templates/nav.php"
 
 
                 </center>
+                <br>
             </div>
             <div class="col">
 
 
 
                 <center>
-                    <iframe src="/pdf/Satzung_RAMAN_e._V..pdf" style="width: 90% ; min-height: 70vh"></iframe>
+                    <iframe src="/pdf/Satzung_RAMAN_e._V..pdf" style="width: 95% ; min-height: 75vh"></iframe>
                 </center>
             </div>
             <br>
