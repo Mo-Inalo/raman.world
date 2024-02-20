@@ -738,30 +738,35 @@ include "templates/nav.php"
 
             </select>
 
-            <span>Monatlicher Beitrag*</span>
+            <p>Monatlicher Beitrag*</p>
 
             <div class="container flex-column">
                 <div class="row">
-                    <div class="col-sm-3 " style="margin: auto">
+                    <div class="col-md-8" style="position: relative; margin-bottom: auto; margin-top: auto">
+                        <div class="row" >
+                    <div class="col-sm-4 " style="margin: auto">
                         <input class="form-check-input" type="radio" id="5euro" name="Monatlicher_Beitrag" value="5Euro">
                         <label for="5euro">5,- €</label>
                     </div>
-                    <div class="col-sm-3" style="margin: auto" >
+                    <div class="col-sm-4" style="margin: auto" >
                          <input class="form-check-input" type="radio" id="10euro" name="Monatlicher_Beitrag" value="10Euro">
                         <label for="10euro">10,- €</label>
                     </div>
-                    <div class="col-sm-3" style="margin: auto">
+                    <div class="col-sm-4" style="position: relative; margin-bottom: auto; margin-top: auto">
                          <input class="form-check-input" type="radio" id="15euro" name="Monatlicher_Beitrag" value="15Euro">
                         <label for="15euro">15,- €</label>
                     </div>
-                    <div class="col-md-3" style="margin: auto">
+                    </div>
+                    </div>
+                    <div class="col-md-4"style="position: relative; margin-bottom: auto; margin-top: auto"">
 
+                        <div class="row" >
 
                         <label>
                             <input style="font-size: 13px" type="text" name="Monatlicher_Beitrag_Anderer_Betrag" placeholder="Freier Betrag ..">
                         </label>
 
-
+                        </div>
                     </div>
                 </div>
             </div>
