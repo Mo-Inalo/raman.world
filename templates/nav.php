@@ -44,7 +44,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                 </li>
                 <li class="navbar-item  ">
                     <a href="/Mitgliedschaft.php" class="nav-link text-light
-                    <?php echo ($page == 'mitgliedschaft') ? 'active' :''?>">
+                    <?php echo ($page == 'Mitgliedschaft') ? 'active' :''?>">
                         Mitgliedschaft
                     </a>
                 </li>
@@ -76,16 +76,16 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                     </a>
                     <ul class="dropdown-menu dropdowncolor" aria-labelledby="navbarDropdown "  >
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'satzung') ? 'active' :''?>" href="/Satzung.php">Satzung</a></li>
+                        <?php echo ($page == 'Satzung') ? 'active' :''?>" href="/Satzung.php">Satzung</a></li>
                         <li><a class="dropdown-item text-light
-                        <?php echo ($page == 'archive') ? 'active' :''?>" href="/Archive.php">Archive</a></li>
+                        <?php echo ($page == 'Archive') ? 'active' :''?>" href="/Archive.php">Archive</a></li>
 
                     </ul>
                 </li>
 
                 <li class="navbar-item ">
                     <a href="/Kontakt.php" class="nav-link text-light
-                    <?php echo ($page == 'contact') ? 'active' :''?>">
+                    <?php echo ($page == 'Kontakt') ? 'active' :''?>">
                         Kontakt
                     </a>
                 </li>
