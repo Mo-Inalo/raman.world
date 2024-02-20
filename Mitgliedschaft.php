@@ -59,7 +59,7 @@ include "templates/nav.php"
             <input type="text" id="nname" name="Nachname" placeholder="Geben Sie bitte Ihren Nachnamen ein.." required>
 
             <label for="Gtag">Geburtsdatum*</label><br>
-            <input type="date" id="Gtag" name="Geburtsdatum" required>
+            <input type="date" id="Gtag" name="Geburtsdatum" value="2000-01-01" required>
 
             <br>
             <label for="Gort">Geburtsort/Stadt*</label>
@@ -759,31 +759,32 @@ include "templates/nav.php"
                     </div>
                 </div>
             </div>
+            <br>
+            <hr style="width: 50%; margin-right: auto; margin-left: auto">
 
-            <hr style="width: 50%; margin-left: 20px">
+            <label for="inhaber">Kontoinhaber</label>
+            <input type="text" id="inhaber" name="Kontoinhaber" placeholder="Geben Sie bitte den Kontoinhaber ein.." >
 
-            <label for="inhaber">Kontoinhaber*</label>
-            <input type="text" id="inhaber" name="Kontoinhaber" placeholder="Geben Sie bitte den Kontoinhaber ein.." required>
+            <label for="iban">IBAN</label>
+            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." >
 
-            <label for="iban">IBAN*</label>
-            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." required>
+            <label for="bic">BIC</label>
+            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." >
 
-            <label for="bic">BIC*</label>
-            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." required>
+            <label for="bankname">Bank</label>
+            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." >
 
-
-            <label for="bankname">Bank*</label>
-            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required>
-
-            <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" required>
-            <label for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!*</label>
+            <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" >
+            <label for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!</label>
 
 
             <br>
 
 
-            <hr style="width: 50%; margin-left: 20px">
 
+            <hr style="width: 50%; margin-right: auto; margin-left: auto">
+
+            <br>
             <input type="checkbox" id="bestaetige" name="Satzung gelesen" value="ja" required>
             <label for="bestaetige">Hiermit bestätige ich, die Satzung gelesen zu haben!*</label>
             <br>
