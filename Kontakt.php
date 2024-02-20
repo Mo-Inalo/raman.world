@@ -21,7 +21,18 @@ include "templates/nav.php"
         </h5>
     </div>
 
-    <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
+
+
+
+
+
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="p-md-5" style="max-width: 900px ; margin-left: auto; margin-right: auto">
+            <input type="hidden" name="access_key" value="288de46a-1b7b-435e-9ef5-15e788ec9871">
+
+            <input type="hidden" name="subject" value="Anfrage">
+            <input type="hidden" name="Kontaktform" value="Anfrage">
+
 
         <label>
             <select name="title" required
@@ -56,8 +67,8 @@ include "templates/nav.php"
     <label for="address">Address</label>
     <input type="text" id="address" name="address" placeholder="Geben Sie bitte Ihre Adresse ein..">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Teilen Sie uns bitte Ihr Anliegen mit.." style="height:250px" required></textarea>
+    <label for="Nachricht">Subject</label>
+    <textarea id="Nachricht" name="Mitteilung" placeholder="Teilen Sie uns bitte Ihr Anliegen mit.." style="height:250px" required></textarea>
 
     <input type="submit" value="Submit" ">
 

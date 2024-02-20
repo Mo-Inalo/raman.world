@@ -32,7 +32,13 @@ include "templates/nav.php"
 
 
 
-        <form action="https://formsubmit.co/info@raman.world" method="POST" class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+        <form action="https://api.web3forms.com/submit" method="POST"   class="p-md-4" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+            <input type="hidden" name="access_key" value="288de46a-1b7b-435e-9ef5-15e788ec9871">
+
+            <input type="hidden" name="subject" value="Neue RAMAN Mitgliedschaft">
+            <input type="hidden" name="Kontaktform" value="Mitgliedschaft">
+
+
             <p>Hiermit beantrage ich . . .</p>
             <label>
                 <select name="Titel" required
@@ -812,6 +818,9 @@ include "templates/nav.php"
     </div>
 
 </div>
+
+
+
 
 <?php
 include "templates/footer.php"
