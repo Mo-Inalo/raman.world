@@ -10,7 +10,7 @@ include "templates/nav.php"
 
 
 
-    <div class="container" style="max-width: 900px; margin-right: auto; margin-left: auto">
+    <div class="container containercontact" style="max-width: 900px; margin-right: auto; margin-left: auto">
         <div class="row-md-2">
             <div class="col p-1">
                 <center>
