@@ -7,6 +7,8 @@
 
 .mynavcolor{
     background-color: var(--maincolor);
+    border-bottom: #ccc8c8 solid 2px;
+
 }
 
 .pagecolor{
