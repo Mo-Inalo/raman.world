@@ -9,8 +9,16 @@
     background-color: var(--maincolor);
 }
 
-.pagecolor {
-     background-color: var(--secondcolor);
+.pagecolor{
+
+    background-color:  var(--secondcolor);
+
+}
+
+.containercontact {
+    border-radius: 5px;
+    background-color: rgba(198, 198, 215, 0.46);
+    padding: 20px;
 }
 
 .dropdowncolor{
@@ -164,11 +172,7 @@ input[type=submit] {
 
 
 /* Add a background color and some padding around the form */
-.containercontact {
-    border-radius: 5px;
-    background-color: rgba(198, 198, 215, 0.46);
-    padding: 20px;
-}
+
 
 
 /* The actual timeline (the vertical ruler) */
