@@ -710,7 +710,7 @@ include "templates/nav.php"
 
 
             <label for="email">E-Mail*</label>
-            <input type="text" id="email" name="E-Mail" placeholder="Geben Sie bitte Ihre E-Mail ein.." required>
+            <input type="text"  id="email" name="E-Mail" placeholder="Test@mail.com" required>
 
             <label for="einrichtung">Universität / Hochschule / Berufskolleg / Schule</label>
             <input type="text" id="einrichtung" name="Einrichtung" placeholder="Geben Sie bitte Ihre Einrichtung ein.." >
