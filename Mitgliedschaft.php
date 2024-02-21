@@ -791,7 +791,7 @@ include "templates/nav.php"
             <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required >
 
 
-            <input type="checkbox" id="einzugserm" name="Einzugsermaechtigung erteilt?" value="ja" required>
+            <input type="checkbox" id="einzugserm" name="Einzugsermaechtigung erteilt?" value="Ja" required>
             <label style="display: inline" for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!*</label>
 
 
