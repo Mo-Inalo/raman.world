@@ -744,27 +744,32 @@ include "templates/nav.php"
                 <div class="row">
                     <div class="col-md-8" style="position: relative; margin-bottom: auto; margin-top: auto">
                         <div class="row" >
-                    <div class="col-sm-4 " style="margin: auto">
+                    <div class="col-sm-3 " style="margin: auto">
                         <input class="form-check-input" type="radio" id="5euro" name="Monatlicher_Beitrag" value="5Euro">
                         <label for="5euro">5,- €</label>
                     </div>
-                    <div class="col-sm-4" style="margin: auto" >
+                    <div class="col-sm-3" style="margin: auto" >
                          <input class="form-check-input" type="radio" id="10euro" name="Monatlicher_Beitrag" value="10Euro">
                         <label for="10euro">10,- €</label>
                     </div>
-                    <div class="col-sm-4" style="position: relative; margin-bottom: auto; margin-top: auto">
+                    <div class="col-sm-3" style="position: relative; margin-bottom: auto; margin-top: auto">
                          <input class="form-check-input" type="radio" id="15euro" name="Monatlicher_Beitrag" value="15Euro">
                         <label for="15euro">15,- €</label>
                     </div>
+                    <div class="col-sm-3" style="position: relative; margin-bottom: auto; margin-top: auto">
+                         <input class="form-check-input" type="radio" id="15euro" name="Monatlicher_Beitrag" value="Ja">
+                        <label for="15euro">Freier Betrag</label>
                     </div>
                     </div>
-                    <div class="col-md-4"style="position: relative; margin-bottom: auto; margin-top: auto"">
+                    </div>
+                    <div class="col-md-4" style="position: relative; margin-bottom: auto; margin-top: auto"">
 
                         <div class="row" >
 
-                        <label>
-                            <input style="font-size: 13px" type="text" name="Monatlicher_Beitrag_Anderer_Betrag" placeholder="Freier Betrag ..">
-                        </label>
+                            <label>
+                                <input style="font-size: 13px"  type="text" name="Monatlicher_Beitrag_Anderer_Betrag" placeholder="Freier Betrag angeben ..">
+                            </label>
+
 
                         </div>
                     </div>
@@ -773,20 +778,21 @@ include "templates/nav.php"
             <br>
             <hr style="width: 50%; margin-right: auto; margin-left: auto">
 
-            <label for="inhaber">Kontoinhaber</label>
-            <input type="text" id="inhaber" name="Kontoinhaber" placeholder="Geben Sie bitte den Kontoinhaber ein.." >
+            <label for="inhaber">Kontoinhaber*</label>
+            <input type="text" id="inhaber" name="Kontoinhaber" placeholder="Geben Sie bitte den Kontoinhaber ein.." required>
 
-            <label for="iban">IBAN</label>
-            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." >
+            <label for="iban">IBAN*</label>
+            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." required>
 
-            <label for="bic">BIC</label>
-            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." >
+            <label for="bic">BIC*</label>
+            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." required >
 
-            <label for="bankname">Bank</label>
-            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." >
+            <label for="bankname">Bank*</label>
+            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required >
 
-            <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" >
-            <label for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!</label>
+
+            <input type="checkbox" id="einzugserm" name="Satzung gelesen" value="ja" required>
+            <label style="display: inline" for="einzugserm">Hiermit ermächtige ich, RAMAN e.V. meinen Beitrag monatlich vom Konto einzuziehen!*</label>
 
 
             <br>
@@ -797,10 +803,10 @@ include "templates/nav.php"
 
             <br>
             <input type="checkbox" id="bestaetige" name="Satzung gelesen?" value="Ja" required>
-            <label for="bestaetige">Hiermit bestätige ich, die <span class="satzunglink"><a href="Satzung.php" target="_blank" >Satzung</a></span> gelesen zu haben!*</label>
+            <label style="display: inline" for="bestaetige">Hiermit bestätige ich, die <span class="satzunglink"><a href="Satzung.php" target="_blank" >Satzung</a></span> gelesen zu haben!*</label>
             <br>
             <input type="checkbox" id="newsbestaetige" name="Newsletter erhalten?" value="Ja" >
-            <label for="newsbestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
+            <label style="display: inline" for="newsbestaetige">Ich möchte E-Mails und Newsletter von RAMAN e.V. erhalten!</label><br>
            <br>
             <h4>Datenschutzhinweis</h4>
             <p style="text-align: justify">
@@ -824,8 +830,6 @@ include "templates/nav.php"
 
 
     </div>
-
-</div>
 
 
 
