@@ -379,9 +379,18 @@ input[type=submit] {
 }
 
 
-@media only screen and (min-width:601px) and (max-width:1500px) {
+@media only screen and (min-width:601px) and (max-width:1000px) {
     .svgfilloben {
-        margin-top: -100px;
+        margin-top: -110px;
+        margin-left: -20px;
+        margin-right: -20px;
+
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:1500px) {
+    .svgfilloben {
+        margin-top: -180px;
         margin-left: -20px;
         margin-right: -20px;
 
@@ -389,7 +398,7 @@ input[type=submit] {
 }
 @media only screen and (min-width:1501px) {
     .svgfilloben {
-        margin-top: -150px;
+        margin-top: -230px;
         margin-left: -20px;
         margin-right: -20px;
 
