@@ -20,7 +20,7 @@
 }
 
 .containercontact {
-    border-radius: 5px;
+
     background-color: rgba(198, 198, 215, 0.46);
     padding: 20px;
 }
@@ -367,6 +367,8 @@ input[type=submit] {
 
 
 @media only screen and (max-width: 600px){
+
+
 .svgfilloben {
 
     margin-top: -70px;
