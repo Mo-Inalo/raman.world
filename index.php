@@ -30,7 +30,7 @@ include "templates/nav.php"
 
                     <div class="col-md bewegung centerlements mainfont" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
 
-                        <h1 class="" style="font-size: 70px"> RAMAN e.V.</h1>
+                        <h1 class="" style="font-size: 60px"> RAMAN e.V.</h1>
 
 
 
