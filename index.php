@@ -28,64 +28,73 @@ include "templates/nav.php"
 
                 <div class="row" style=" max-width: 99vw">
 
-                    <div class="col-md bewegung" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
-                        <center><h1 class="rock-salt-regular"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                    <div class="col-md bewegung centerlements" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
+
+                        <h1 class="caveat" style="font-size: 70px"> RAMAN e.V.</h1>
+
+
+
                     </div>
 
-                    <div class="col-md bewegung" style=" ;background-color: rgba(183,156,88,0.82); opacity: 0.7 ;max-height: 100%; width: 100%">
-                        <center> <h2  class="caveat"  > Werde Teil unsere Welt und unterstütze uns mit deinen Ideen </h2>
+                    <div class="col-md bewegung centerlements" style=" ;background-color: rgba(183,156,88,0.82); opacity: 0.7 ;max-height: 100%; width: 100%">
+                        <h2  class="caveat"  > Werde Teil unserer Gesellschaft!</h2>
+                        <h2  class="caveat"  > Unterstütze uns mit deinen Ideen. </h2>
 
                             <a href="Mitgliedschaft.php">
                                 <button class="btn btn-danger btn-lg btn-block">Mitglied werden</button>
                             </a>
-                        </center>
+
                     </div>
 
-                    <div class="col-md bewegung" style="background-color: rgba(87,122,49,0.87); opacity: 0.7 ;max-height: 100%; width: 100% ">
-                        <center> <h2  class="caveat"  >Erfahre mehr über unsere Vision </h2>
+                    <div class="col-md bewegung centerlements" style="background-color: rgba(87,122,49,0.87); opacity: 0.7 ;max-height: 100%; width: 100% ">
+                        <h2  class="caveat"  > Unterstütze uns mit deinen Ideen. nimm <span class="satzunglink"><a href="Kontakt.php" target="_blank">Kontakt</a></span> mit uns auf und lass dich von unseren Plänen begeistern </h2>
 
-                            <a href="Mitgliedschaft.php">
-                                <button class="btn btn-primary  btn-lg btn-block">Satzung lesen</button>
-                            </a>
-                        </center>
+
+
                     </div>
                 </div>
                 <div class="row" style=" max-width: 99vw">
 
-                    <div class="col-md bewegung" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                    <div class="col-md centerlements bewegung" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
+
+                        <h2  class="caveat"  >Erfahre mehr über unsere Vision. </h2>
+                        <a href="Mitgliedschaft.php">
+                            <button class="btn btn-primary  btn-lg btn-block">Satzung lesen</button>
+                        </a>
                     </div>
 
-                    <div class="col-md bewegung" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                    <div class="col-md centerlements bewegung" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
+                        <h1 class="caveat" style="font-size: 40px"> <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
+
                     </div>
 
                     <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-                    </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                         </div>
 
 
                 </div>
                 <div class="row" style=" max-width: 99vw">
 
-                    <div class="col-md bewegung" style="background-color: #0a53be;opacity: 0.7; max-height: 100%; width: 100%">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-                    </div>
+                    <div class="col-md centerlements bewegung" style="background-color: #0a53be;opacity: 0.7; max-height: 100%; width: 100%">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                           </div>
 
                     <div class="col-md bewegung" style="background-color: #a8085d ;opacity: 0.7;max-height: 100%; width: 100%">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-                    </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                         </div>
 
                     <div class="col-md bewegung" style="background-color: #71d024 ;opacity: 0.7;max-height: 100%; width: 100% ">
-                        <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                        <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-                    </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                         </div>
 
                 </div>
 
