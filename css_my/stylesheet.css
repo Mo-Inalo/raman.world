@@ -321,15 +321,6 @@ input[type=submit] {
     background-color: #198653 !important;
 }
 
-.svgfilloben {
-
-    margin-top: -100px;
-    margin-bottom: -20px;
-    margin-left: -20px;
-    margin-right: -20px;
-
-
-}
 
 .svgfillunten {
 
@@ -337,8 +328,6 @@ input[type=submit] {
     margin-bottom: -40px ;
     margin-left: -20px;
     margin-right: -20px;
-
-
 
 }
 
@@ -377,8 +366,30 @@ input[type=submit] {
 
 
 
-@media only screen and (min-width: 600px) {
-    svg {
-        display: none;
+@media only screen and (max-width: 600px){
+.svgfilloben {
+
+    margin-top: -70px;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    }
+}
+
+
+@media only screen and (min-width:601px) and (max-width:1500px) {
+    .svgfilloben {
+        margin-top: -100px;
+        margin-left: -20px;
+        margin-right: -20px;
+
+    }
+}
+@media only screen and (min-width:1501px) {
+    .svgfilloben {
+        margin-top: -150px;
+        margin-left: -20px;
+        margin-right: -20px;
+
     }
 }

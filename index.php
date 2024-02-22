@@ -23,55 +23,51 @@ include "templates/nav.php"
     <div   class="p-md-3" style="max-width: 1000px ; margin-left: auto; margin-right: auto; margin-bottom: auto">
         <div class="container-fluid"style="position: inherit">
 
-        <div class="row" style=" height: 50vh;max-width: 100vw ">
+            <div class="row" style=" height: 50vh;max-width: 99vw ">
 
-            <div class="col-md bewegung" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
-                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-            </div>
+                <div class="col-md bewegung" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                </div>
 
-            <div class="col-md bewegung" style=" ;background-color: rgba(183,156,88,0.82); opacity: 0.7 ;max-height: 100%; width: 100%">
-                <center> <h2  class="caveat"  > Werde Teil unsere Welt und untersütze uns </h2>
+                <div class="col-md bewegung" style=" ;background-color: rgba(183,156,88,0.82); opacity: 0.7 ;max-height: 100%; width: 100%">
+                    <center> <h2  class="caveat"  > Werde Teil unsere Welt und untersütze uns </h2>
 
-                <a href="Mitgliedschaft.php">
-                    <button class="btn btn-danger btn-lg btn-block">Mitglied werden</button>
-                </a>
+                        <a href="Mitgliedschaft.php">
+                            <button class="btn btn-danger btn-lg btn-block">Mitglied werden</button>
+                        </a>
                     </center>
+                </div>
+
+
+                <div class="col-md bewegung" style="background-color: rgba(87,122,49,0.87); opacity: 0.7 ;max-height: 100%; width: 100% ">
+                    <center> <h2  class="caveat"  >Erfahre mehr über unsere Vision </h2>
+
+                        <a href="Mitgliedschaft.php">
+                            <button class="btn btn-primary  btn-lg btn-block">Satzung lesen</button>
+                        </a>
+                    </center>
+                </div>
             </div>
+            <div class="row "style=" height: 50vh;max-width: 99vw">
+
+                <div class="col-md bewegung" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                </div>
+
+                <div class="col-md bewegung" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                </div>
+
+                <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
+                </div>
 
 
-            <div class="col-md bewegung" style="background-color: rgba(87,122,49,0.87); opacity: 0.7 ;max-height: 100%; width: 100% ">
-                <center> <h2  class="caveat"  >Erfahre mehr über unsere Vision </h2>
-
-                    <a href="Mitgliedschaft.php">
-                        <button class="btn btn-primary  btn-lg btn-block">Satzung lesen</button>
-                    </a>
-                </center>
             </div>
-            </div>
-
-        </div>
-
-        <div class="row " style=" height: 50vh; max-width: 99vw">
-
-            <div class="col-md bewegung" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
-                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-            </div>
-
-            <div class="col-md bewegung" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
-                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-            </div>
-
-            <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
-                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
-                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
-            </div>
-
-
-        </div>
-
             <div class="row" style=" height: 50vh;max-width: 99vw ">
 
                 <div class="col-md bewegung" style="background-color: #0a53be;opacity: 0.7; max-height: 100%; width: 100%">
@@ -92,13 +88,11 @@ include "templates/nav.php"
             </div>
 
         </div>
+
+
+
+        </div>
     </div>
-
-                <svg class="svgfillunten" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#818d16" fill-opacity="1.0" d="M0,96L24,122.7C48,149,96,203,144,202.7C192,203,240,149,288,154.7C336,160,384,224,432,229.3C480,235,528,181,576,165.3C624,149,672,171,720,165.3C768,160,816,128,864,133.3C912,139,960,181,1008,202.7C1056,224,1104,224,1152,208C1200,192,1248,160,1296,160C1344,160,1392,192,1416,208L1440,224L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
-                </svg>
-            </div>
-
 
 
 
