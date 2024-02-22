@@ -64,7 +64,7 @@ include "templates/nav.php"
                     </div>
 
                     <div class="col-md centerlements bewegung mainfont" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
-                        <h1 class="" style="font-size: 40px"> <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
+                        <h1 class="" style="font-size: 30px"> <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
 
                     </div>
 
