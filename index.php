@@ -21,7 +21,7 @@ include "templates/nav.php"
         </svg>
 
     <div   class="p-md-3" style="max-width: 1000px ; margin-left: auto; margin-right: auto; margin-bottom: auto">
-        <div class="container-fluid"style="position: inherit">
+        <div class="container-fluid" style="position: inherit">
 
             <div class="row" style=" height: 50vh;max-width: 99vw ">
 
