@@ -53,20 +53,20 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                 <!--
                 <li class="navbar-item  ">
                     <a href="/.php" class="nav-link text-light
-                    <?php echo ($page == 'aktivitaeten') ? 'active' :''?>">
+                    <?php echo ($page == 'Aktivitaeten') ? 'active' :''?>">
                         Aktivitäten
                     </a>
                 </li>
 
                 <li class="navbar-item   ">
                     <a href="/.php" class="nav-link text-light
-                    <?php echo ($page == 'gallerie') ? 'active' :''?>">
+                    <?php echo ($page == 'Gallerie') ? 'active' :''?>">
                         Gallerie
                     </a>
                 </li>
                 -->
                 <li class="navbar-item dropdown
-                <?php echo ($page == 'biography' || $page =='projects') ? 'active' :''?>">
+                <?php echo ($page == 'Satzung' || $page =='Archive') ? 'active' :''?>">
                     <a href="#"
                        class="nav-link dropdown-toggle text-light"
                        id="navbarDropdown"

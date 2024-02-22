@@ -11,6 +11,8 @@
 
 }
 
+
+
 .pagecolor{
 
     background-color:  var(--secondcolor);
@@ -318,3 +320,60 @@ input[type=submit] {
 .dropdown-item.active, .dropdown-item:active {
     background-color: #198653 !important;
 }
+
+.svgfilloben {
+
+    margin-top: -100px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+
+
+}
+
+.svgfillunten {
+
+    margin-top: 0px;
+    margin-bottom: -40px ;
+    margin-left: -20px;
+    margin-right: -20px;
+
+
+
+}
+
+#ballon1 {
+    margin-bottom: -1500px;
+}
+
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+.caveat{
+             font-family: "Caveat", cursive;
+             font-optical-sizing: auto;
+
+             font-style: italic;
+         }
+
+.bewegung{
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.bewegung:hover {
+    border-radius: 0px;
+    margin: 3px;
+    box-shadow: 0 15px 50px black;
+    opacity: 0.99!important;
+    padding: 40px;
+}
+
+
+
