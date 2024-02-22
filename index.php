@@ -58,7 +58,7 @@ include "templates/nav.php"
                     <div class="col-md centerlements bewegung mainfont" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
 
                         <h2  class=""  >Erfahre mehr über unsere Vision. </h2>
-                        <a href="Mitgliedschaft.php">
+                        <a href="Satzung.php">
                             <button class="btn btn-primary  btn-lg btn-block">Satzung lesen</button>
                         </a>
                     </div>
