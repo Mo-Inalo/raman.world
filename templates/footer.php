@@ -1,6 +1,6 @@
 
 
-<footer class="text-center text-white socialmeidachannels footer"  >
+<footer class="text-center text-white socialmeidachannels "  >
 
     <?php
     include "socialmediaicons.php"

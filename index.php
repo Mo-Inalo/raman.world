@@ -54,16 +54,19 @@ include "templates/nav.php"
 
         <div class="row " style=" height: 50vh; max-width: 99vw">
 
-            <div class="col-md bewegung" style="background-color: #4b0c2b; opacity: 0.3; max-height: 100%; width: 100% ">
-
+            <div class="col-md bewegung" style="background-color: #a16183; opacity: 0.7; max-height: 100%; width: 100% ">
+                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
             </div>
 
-            <div class="col-md bewegung" style="background-color: #076004; opacity: 0.3; max-height: 100%; width: 100%">
-
+            <div class="col-md bewegung" style="background-color: #5ee1be; opacity: 0.7; max-height: 100%; width: 100%">
+                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
             </div>
 
-            <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.3;  max-height: 100%; width: 100%">
-
+            <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
+                <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
             </div>
 
 
@@ -71,16 +74,19 @@ include "templates/nav.php"
 
             <div class="row" style=" height: 50vh;max-width: 99vw ">
 
-                <div class="col-md bewegung" style="background-color: #0a53be;opacity: 0.2; max-height: 100%; width: 100%">
-
+                <div class="col-md bewegung" style="background-color: #0a53be;opacity: 0.7; max-height: 100%; width: 100%">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
                 </div>
 
-                <div class="col-md bewegung" style="background-color: #a8085d ;opacity: 0.2;max-height: 100%; width: 100%">
-
+                <div class="col-md bewegung" style="background-color: #a8085d ;opacity: 0.7;max-height: 100%; width: 100%">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
                 </div>
 
-                <div class="col-md bewegung" style="background-color: #71d024 ;opacity: 0.2;max-height: 100%; width: 100% ">
-
+                <div class="col-md bewegung" style="background-color: #71d024 ;opacity: 0.7;max-height: 100%; width: 100% ">
+                    <center><h1 class="rock-salt-regular" style="display: ruby;"> RAMAN e.V.</h1></center>
+                    <center> <h2  class="caveat" > Für die Förderung der Integration, des Lernens und des Denkens!</h2> </center>
                 </div>
 
             </div>
