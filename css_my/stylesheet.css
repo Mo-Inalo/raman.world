@@ -43,7 +43,7 @@
 
 .breaking {
     background-color: rgba(106, 108, 108, 0.99);
-    margin-bottom: 0px;
+
 }
 
 .socialmeidachannels {
@@ -402,3 +402,34 @@ input[type=submit] {
     justify-content: center;
     text-align: center;
 }
+
+.mainfont{
+    font-family: Calibri, sans-serif;
+    font-stretch: condensed;
+    font-weight: bold;
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
