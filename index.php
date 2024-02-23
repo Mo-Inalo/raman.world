@@ -30,33 +30,33 @@ include "templates/nav.php"
 
                     <div id="colorbox1" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ; max-height: 100%; width: 100%">
 
+                        <p class="mainfont">Herzlich Wilkomme auf der Startseite vom RAMAN e.V.</p>
 
-                        <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
-
-                        <a class="mainfont" href="Mitgliedschaft.php">
-                            <button class="btn btn-dark btn-lg btn-block">Mitglied werden</button>
-                        </a>
 
 
                     </div>
 
                     <div id="colorbox2" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100%">
+                        <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
+                        <a class="mainfont" href="Satzung.php">
+                            <button class="btn btn-dark  btn-lg btn-block">Satzung lesen</button>
+                        </a>
 
-                        <h1 class="mainfont" > <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
                     </div>
 
                     <div id="colorbox3" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100% ">
-                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy et.</p>
+                        <h1 class="mainfont" > Blättere mal unseren <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> durch!</h1>
+
 
                     </div>
                 </div>
                 <div class="row" style=" max-width: 99vw">
 
                     <div id="colorbox4"  class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100% ">
+                        <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
 
-                        <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
-                        <a class="mainfont" href="Satzung.php">
-                            <button class="btn btn-dark  btn-lg btn-block">Satzung lesen</button>
+                        <a class="mainfont" href="Mitgliedschaft.php">
+                            <button class="btn btn-dark btn-lg btn-block">Mitglied werden</button>
                         </a>
                     </div>
 
@@ -85,7 +85,7 @@ include "templates/nav.php"
 
 
                     <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100%">
-                        <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen. </h2>
+                        <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen! </h2>
                             <a class="mainfont" href="Kontakt.php">
                                 <button class="btn btn-dark btn-lg btn-block">Kontakt aufnehmen</button>
                             </a>
