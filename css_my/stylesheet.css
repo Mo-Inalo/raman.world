@@ -429,7 +429,33 @@ input[type=submit] {
 
 
 
-
+#colorbox1{
+    background-color: #ee050e;
+}
+#colorbox2{
+    background-color: rgba(217, 57, 50, 0.75);
+}
+#colorbox3{
+    background-color: rgba(217, 57, 50, 0.54);
+}
+#colorbox4{
+    background-color: rgba(206, 203, 203, 0.8);
+}
+#colorbox5{
+    background-color: rgba(178, 173, 13, 0.93);
+}
+#colorbox6{
+    background-color: rgba(206, 203, 203, 0.8);
+}
+#colorbox7{
+    background-color: #187a0b
+}
+#colorbox8{
+    background-color: rgba(64, 144, 42, 0.75);
+}
+#colorbox9{
+    background-color: rgba(64, 144, 42, 0.51)
+}
 
 
 
