@@ -65,8 +65,8 @@ include "templates/nav.php"
                         <h1 class="mainfont" style="font-size: 40px"> RAMAN e.V.</h1>
                     </div>
 
-                    <div id="colorbox6" class="col-md bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                    <div id="colorbox6" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
                          </div>
 
 
@@ -74,24 +74,23 @@ include "templates/nav.php"
                 <div class="row" style=" max-width: 99vw">
 
                     <div id="colorbox7" class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in.</p>
-                           </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    </div>
+
+
 
                     <div id="colorbox8" class="col-md centerlements bewegung mainfont;" style="opacity: 0.7;max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i.</p>
-                         </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor .</p>
+                    </div>
 
-                    <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100% ">
+
+                    <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100%">
                         <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen. </h2>
                             <a class="mainfont" href="Kontakt.php">
                                 <button class="btn btn-dark btn-lg btn-block">Kontakt aufnehmen</button>
                             </a>
 
-
-
-
-
-                         </div>
+                    </div>
 
                 </div>
 
