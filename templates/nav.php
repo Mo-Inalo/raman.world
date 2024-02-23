@@ -81,6 +81,8 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                         <?php echo ($page == 'Satzung') ? 'active' :''?>" href="/Satzung.php">Satzung</a></li>
                         <li><a class="dropdown-item text-light
                         <?php echo ($page == 'Archive') ? 'active' :''?>" href="/Archive.php">Archive</a></li>
+                        <li><a class="dropdown-item text-light
+                        <?php echo ($page == 'Impressum') ? 'active' :''?>" href="/Impressum.php">Impressum</a></li>
 
                     </ul>
                 </li>
