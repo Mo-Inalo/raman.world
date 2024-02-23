@@ -46,9 +46,7 @@ include "templates/nav.php"
                     </div>
 
                     <div id="colorbox3" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100% ">
-                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy et.</p>
 
                     </div>
                 </div>
@@ -68,9 +66,7 @@ include "templates/nav.php"
                     </div>
 
                     <div id="colorbox6" class="col-md bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
                          </div>
 
 
@@ -78,15 +74,11 @@ include "templates/nav.php"
                 <div class="row" style=" max-width: 99vw">
 
                     <div id="colorbox7" class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in.</p>
                            </div>
 
                     <div id="colorbox8" class="col-md centerlements bewegung mainfont;" style="opacity: 0.7;max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i.</p>
                          </div>
 
                     <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100% ">

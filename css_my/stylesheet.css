@@ -389,6 +389,10 @@ input[type=submit] {
         margin-right: -20px;
 
     }
+
+    .bewegung{
+        height: 30vh!important;
+    }
 }
 
 @media only screen and (min-width:1001px) and (max-width:1300px) {
@@ -398,6 +402,9 @@ input[type=submit] {
         margin-right: -20px;
 
     }
+    .bewegung{
+        height: 30vh!important;
+    }
 }
 @media only screen and (min-width:1301px) and (max-width:1500px) {
     .svgfilloben {
@@ -406,6 +413,9 @@ input[type=submit] {
         margin-right: -20px;
 
     }
+    .bewegung{
+        height: 30vh!important;
+    }
 }
 @media only screen and (min-width:1501px) {
     .svgfilloben {
@@ -413,6 +423,9 @@ input[type=submit] {
         margin-left: -20px;
         margin-right: -20px;
 
+    }
+    .bewegung{
+        height: 30vh!important;
     }
 }
 
