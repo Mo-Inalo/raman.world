@@ -29,7 +29,7 @@ include "templates/nav.php"
                 <h5> Amtsgericht Bonn</h5>
                 <h5> Bonnerstr 123</h5>
                 <h5> 53111 Bonn</h5>
-
+                <br>
 
                 <h5 style="display: inline-block; font-weight: bolder"> E-Mail:</h5>
                 <h5 style="display: inline-block">info@raman.world</h5>
@@ -37,51 +37,34 @@ include "templates/nav.php"
                 <h5 style="display: inline-block; font-weight: bolder"> Telefone</h5>
                 <h5 style="display: inline-block">0176xxxxxxx</h5>
                 <br>
+                <br>
 
 
-                Telefon: 01234/567890
 
-                Fax: 0123/4567890
 
-                E-Mail: info@raman-verein.de
+                <p>Vertreten durch:</p>
+                <h6>Jegar Abdo - Vereinsvorsitzende</h6>
+                <h6>Eva Baker - Stellvertretende</h6>
+                <h6>Mohamad Ali Kara Mohamad - Stellvertretende</h6>
+                <h6>Aram Kado - Kassenwart</h6>
+                <h6>Vian Delli Hussein - Socialmediateam</h6>
+                <h6>Slava Kara Mohamad - Socialmediateam</h6>
+                <h6>Mohamad Inalo - IT Manager</h6>
 
-                Vertreten durch:
+                <br>
 
-                Vorsitzende:
-                Nina Mustermann
 
-                c/o Musterstraße 1
+                <p>Registergericht: Amtsgericht Bonn</p>
 
-                12345 Musterstadt
+                <p>Registernummer: xy</p>
+                <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE xy</p>
+                <br>
+                <p>Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:</p>
+                <h6>Mohamad Inalo</h6>
+                <h6>Grünerweg 43</h6>
+                <h6>53175 Bonn</h6>
 
-                Telefon: 01234/567890-1
 
-                E-Mail: nina.mustermann@raman-verein.de
-
-                Vorsitzender:
-                Max Beispiel
-
-                c/o Musterstraße 1
-
-                12345 Musterstadt
-
-                Telefon: 01234/567890-2
-
-                E-Mail: max.beispiel@raman-verein.de
-
-                Registergericht: Amtsgericht Musterstadt
-
-                Registernummer: VR 12345
-
-                Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE 123456789
-
-                Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:
-
-                Nina Mustermann
-
-                c/o Musterstraße 1
-
-                12345 Musterstadt
 
             </div>
 
