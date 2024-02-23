@@ -30,7 +30,7 @@ include "templates/nav.php"
 
                     <div class="col-md bewegung centerlements mainfont" style="background-color: #5b8cbe; opacity: 0.7 ; max-height: 100%; width: 100%">
 
-                        <h1 class="" style="font-size: 50px"> RAMAN e.V.</h1>
+                        <h1 class="" style="font-size: 40px"> RAMAN e.V.</h1>
 
 
 
@@ -68,7 +68,7 @@ include "templates/nav.php"
 
                     </div>
 
-                    <div class="col-md bewegung" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
+                    <div class="col-md bewegung mainfont" style="background-color: #c264a8;opacity: 0.7;  max-height: 100%; width: 100%">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                             dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
