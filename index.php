@@ -62,7 +62,7 @@ include "templates/nav.php"
 
                     <div id="colorbox5" class="col-md centerlements bewegung mainfont" style=" opacity: 0.7; max-height: 100%; width: 100%">
 
-                        <h1 class="mainfont" style="font-size: 40px"> RAMAN e.V.</h1>
+                        <h1 class="" style="font-size: 30px"> RAMAN e.V.</h1>
                     </div>
 
                     <div id="colorbox6" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
