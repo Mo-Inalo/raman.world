@@ -31,9 +31,9 @@ include "templates/nav.php"
                     <div id="colorbox1" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ; max-height: 100%; width: 100%">
 
 
-                        <h2  class=""  > Werde Teil unserer Gesellschaft!</h2>
+                        <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
 
-                        <a href="Mitgliedschaft.php">
+                        <a class="mainfont" href="Mitgliedschaft.php">
                             <button class="btn btn-dark btn-lg btn-block">Mitglied werden</button>
                         </a>
 
@@ -42,11 +42,11 @@ include "templates/nav.php"
 
                     <div id="colorbox2" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100%">
 
-                        <h1 class="" style="font-size: 30px"> <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
+                        <h1 class="mainfont" > <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> ansehen!</h1>
                     </div>
 
                     <div id="colorbox3" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100% ">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                             dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
@@ -56,19 +56,19 @@ include "templates/nav.php"
 
                     <div id="colorbox4"  class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100% ">
 
-                        <h2  class=""  >Erfahre mehr über unsere Vision. </h2>
-                        <a href="Satzung.php">
+                        <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
+                        <a class="mainfont" href="Satzung.php">
                             <button class="btn btn-dark  btn-lg btn-block">Satzung lesen</button>
                         </a>
                     </div>
 
                     <div id="colorbox5" class="col-md centerlements bewegung mainfont" style=" opacity: 0.7; max-height: 100%; width: 100%">
 
-                        <h1 class="" style="font-size: 40px"> RAMAN e.V.</h1>
+                        <h1 class="mainfont" style="font-size: 40px"> RAMAN e.V.</h1>
                     </div>
 
                     <div id="colorbox6" class="col-md bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        <p class="mainfont">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
                             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                             dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                          </div>
@@ -90,8 +90,8 @@ include "templates/nav.php"
                          </div>
 
                     <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100% ">
-                        <h2  class=""  > Unterstütze uns mit deinen Ideen. </h2>
-                            <a href="Kontakt.php">
+                        <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen. </h2>
+                            <a class="mainfont" href="Kontakt.php">
                                 <button class="btn btn-dark btn-lg btn-block">Kontakt aufnehmen</button>
                             </a>
 

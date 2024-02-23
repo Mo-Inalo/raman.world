@@ -424,13 +424,16 @@ input[type=submit] {
     font-family: Calibri, sans-serif;
     font-stretch: condensed;
     font-weight: bold;
-    ;
+    font-size: 18px;
+    margin: 5px;
+
 }
 
 
 
 #colorbox1{
     background-color: #969f36;
+
 }
 #colorbox2{
     background-color: #a9af70;
