@@ -57,14 +57,14 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                         Aktivitäten
                     </a>
                 </li>
-                <!--
+
                 <li class="navbar-item   ">
-                    <a href="/.php" class="nav-link text-light
-                    <?php echo ($page == 'Gallerie') ? 'active' :''?>">
-                        Gallerie
+                    <a href="/Galerie.php" class="nav-link text-light
+                    <?php echo ($page == 'Galerie') ? 'active' :''?>">
+                        Galerie
                     </a>
                 </li>
-                -->
+
                 <li class="navbar-item dropdown
                 <?php echo ($page == 'Satzung' || $page =='Archive') ? 'active' :''?>">
                     <a href="#"
