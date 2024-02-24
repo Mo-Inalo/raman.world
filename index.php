@@ -29,7 +29,7 @@ include "templates/nav.php"
                 <div id="colorbox2" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100%">
                     <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
                     <a class="mainfont" href="Satzung.php">
-                        <button class="btn btn-dark  btn-lg btn-block">Satzung lesen</button>
+                        <button class="btn btn-dark  btn-sm btn-block">Satzung lesen</button>
                     </a>
 
                 </div>
@@ -46,7 +46,7 @@ include "templates/nav.php"
                         <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
 
                         <a class="mainfont" href="Mitgliedschaft.php">
-                            <button class="btn btn-dark btn-lg btn-block">Mitglied werden</button>
+                            <button class="btn btn-dark btn-md btn-block">Mitglied werden</button>
                         </a>
                     </div>
 
@@ -56,7 +56,7 @@ include "templates/nav.php"
                     </div>
 
                     <div id="colorbox6" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                        <p >Erkunige Mehr über unsere Sozialmeiden Kanälen auf Facebook und Instagram.</p>
                          </div>
 
 
