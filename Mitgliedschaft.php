@@ -15,18 +15,18 @@ include "templates/nav.php"
 
         <div   class="p-md-3" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
             <p style = "text-align: justify ; display: block"  >
-                Herzlich willkommen zu unserem <span style="font-weight: bold">Mitgliedschaftsportal</span>! Wir freuen uns sehr über Ihr Interesse daran, Teil
-                unserer Gemeinschaft zu werden. Bitte nutzen Sie das folgende Formular, um Ihren Antrag auf Mitgliedschaft
-                einzureichen. Wir bitten Sie, alle erforderlichen Informationen sorgfältig auszufüllen, damit wir Ihren
+                Herzlich willkommen zu unserem <span style="font-weight: bold">Mitgliedschaftsportal</span>! Wir freuen uns sehr über Dein Interesse daran, Teil
+                unserer Gemeinschaft zu werden. Nutze bitte das folgende Formular, um Deinen Antrag auf Mitgliedschaft
+                einzureichen. Wir bitten Dich, alle erforderlichen Informationen sorgfältig auszufüllen, damit wir Deinen
                 Antrag so schnell wie möglich bearbeiten können.
-                Wir schätzen Ihre Unterstützung und Ihr Engagement und freuen uns darauf, Sie bald als offizielles Mitglied begrüßen zu dürfen.
+                Wir schätzen Deine Unterstützung und Dein Engagement und freuen uns darauf, Dich bald als offizielles Mitglied begrüßen zu dürfen.
 
                 <span class="satzunglink">
-                    Bevor Sie mit Ihrem Antrag starten, lesen Sie bitte unsere <a href="Satzung.php" target="_blank" >Satzung</a> sorgfältig.
+                    Bevor Du mit Deinem Antrag startest, lies mal bitte unsere <a href="Satzung.php" target="_blank" >Satzung</a> sorgfältig.
                 </span>
-                Vielen Dank für Ihr Vertrauen in unsere Organisation.
+                Vielen Dank für Dein Vertrauen in unsere Organisation.
             </p>
-            <p>Ihr RAMAN Team!</p>
+            <p>Dein RAMAN Team!</p>
             <hr style="width:40%; margin-left: auto; margin-right: auto">
         </div>
 
@@ -59,17 +59,17 @@ include "templates/nav.php"
 
 
             <label for="vname">Vorname*</label>
-            <input type="text" id="vname" name="Vorname" placeholder="Geben Sie bitte Ihren Vornamen ein .." required>
+            <input type="text" id="vname" name="Vorname" placeholder="Hier Vorname eingeben .." required>
 
             <label for="nname">Nachname*</label>
-            <input type="text" id="nname" name="Nachname" placeholder="Geben Sie bitte Ihren Nachnamen ein.." required>
+            <input type="text" id="nname" name="Nachname" placeholder="Hier Nachname eingeben .." required>
 
             <label for="Gtag">Geburtsdatum*</label><br>
             <input type="date" id="Gtag" name="Geburtsdatum" value="2000-01-01" required>
 
             <br>
             <label for="Gort">Geburtsort/Stadt*</label>
-            <input type="text" id="Gort" name="Geburtsort/Stadt" placeholder="Geben Sie bitte Ihren Geburtsort ein.." required>
+            <input type="text" id="Gort" name="Geburtsort/Stadt" placeholder="Hier Geburtsort eingeben .." required>
 
             <label for="Gland">Geburtsland*</label>
             <select name="Geburtsland" id="Gland" required
@@ -695,33 +695,33 @@ include "templates/nav.php"
             </select>
 
             <label for="adresse">Adresse*</label>
-            <input type="text" id="adresse" name="Adresse" placeholder="Geben Sie bitte Ihre Adresse ein.." required>
+            <input type="text" id="adresse" name="Adresse" placeholder="Hier Adresse eingeben .." required>
 
 
             <label for="tele">Handynummer*</label>
-            <input type="text" id="tele" name="Handynummer" placeholder="Geben Sie bitte Ihre Telefonnummer ein.." required>
+            <input type="text" id="tele" name="Handynummer" placeholder="Hier Telefonnummer eingeben .." required>
 
 
             <label for="festnetz">Festnetznummer</label>
-            <input type="text" id="festnetz" name="Festnetznummer" placeholder="Geben Sie bitte Ihre Festnetznummer ein.." >
+            <input type="text" id="festnetz" name="Festnetznummer" placeholder="Falls Vorhanden, Festnetznummer eingeben .." >
 
             <label for="festnetz">Faxnummer</label>
-            <input type="text" id="festnetz" name="Faxnummer" placeholder="Geben Sie bitte Ihre Faxnummer ein.." >
+            <input type="text" id="festnetz" name="Faxnummer" placeholder="Falls Vorhanden, Faxnummer eingeben.." >
 
 
             <label for="email">E-Mail*</label>
-            <input type="text"  id="email" name="E-Mail" placeholder="Test@mail.com" required>
+            <input type="text"  id="email" name="E-Mail" placeholder="In der Form Test@testmail.com eingeben .." required>
 
             <label for="einrichtung">Universität / Hochschule / Berufskolleg / Schule</label>
-            <input type="text" id="einrichtung" name="Einrichtung" placeholder="Geben Sie bitte Ihre Einrichtung ein.." >
+            <input type="text" id="einrichtung" name="Einrichtung" placeholder="Hier der Name Deiner Einrichtung eingeben .." >
 
 
             <label for="study">Ausbildung / Studiengang</label>
-            <textarea id="study" name="Ausbildung/Studiengang" placeholder="Geben Sie bitte Ihre Berufsausbildung, Ihren Studiengang mit dem angestrebten Abschluss (Bachelor, Master, Diplom, Magister, Staatsexamen) mit dem Fachsemester ein.." style="height:100px" ></textarea>
+            <textarea id="study" name="Ausbildung/Studiengang" placeholder="Gib mal bitte Deine Berufsausbildung, Deinen Studiengang mit dem angestrebten Abschluss (Bachelor, Master, Diplom, Magister, Staatsexamen) mit dem Fachsemester ein.." style="height:100px" ></textarea>
 
 
             <label for="subject">Nachricht</label>
-            <textarea id="subject" name="Nachricht" placeholder="Teilen Sie uns bitte Ihre Nachricht/ Ihr Anliegen bei Bedarf mit.." style="height:250px" ></textarea>
+            <textarea id="subject" name="Nachricht" placeholder="Teile uns bitte Deine Nachricht/ Dein Anliegen bei Bedarf mit .." style="height:250px" ></textarea>
 
             <p> . . . die Mitgliedschaft in RAMAN e.V. und bestätige meinen Antrag mit dem Absenden!</p>
 
@@ -779,16 +779,16 @@ include "templates/nav.php"
             <hr style="width: 50%; margin-right: auto; margin-left: auto">
 
             <label for="inhaber">Kontoinhaber*</label>
-            <input type="text" id="inhaber" name="Kontoinhaber:In" placeholder="Geben Sie bitte den Kontoinhaber ein.." required>
+            <input type="text" id="inhaber" name="Kontoinhaber:In" placeholder="Gib mal bitte den/die KontoinhaberIn ein .." required>
 
             <label for="iban">IBAN*</label>
-            <input type="text" id="iban" name="IBAN" placeholder="Geben Sie bitte die IBAN ein.." required>
+            <input type="text" id="iban" name="IBAN" placeholder="Gib mal bitte die IBAN ein .." required>
 
             <label for="bic">BIC*</label>
-            <input type="text" id="bic" name="BIC" placeholder="Geben Sie bitte die BIC ein.." required >
+            <input type="text" id="bic" name="BIC" placeholder="Gib mal bitte die BIC ein .." required >
 
             <label for="bankname">Bank*</label>
-            <input type="text" id="bankname" name="Bank" placeholder="Geben Sie bitte den Banknamen ein.." required >
+            <input type="text" id="bankname" name="Bank" placeholder="Gib mal bitte den Banknamen ein .." required >
 
 
             <input type="checkbox" id="einzugserm" name="Einzugsermaechtigung erteilt?" value="Ja" required>
@@ -820,7 +820,7 @@ include "templates/nav.php"
             <span  style="font-weight: lighter; font-size:15px"> * Pflichtangaben</span>
             <br>
             <br>
-            <span  >Indem Sie dieses Formular absenden, erklären Sie sich damit einverstanden, dass Ihre Eingaben als digitale Unterschrift gelten.</span>
+            <span  >Indem Du dieses Formular absendest, erklärst du Dich damit einverstanden, dass Deine Eingaben als digitale Unterschrift gelten.</span>
             <br>
             <input type="submit" value="Absenden" >
             <br>
