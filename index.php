@@ -60,7 +60,7 @@ include "templates/nav.php"
                     </div>
 
                     <div id="colorbox6" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p >Erkunige Mehr über unsere Sozialmeiden Kanälen auf Facebook und Instagram.</p>
+                        <p >Erkunige Mehr über unsere Sozialmeiden Kanälen auf <span class="satzunglink"><a href="https://www.facebook.com/RamanHSG" target="_blank">Facebook</a></span> und <span class="satzunglink"><a href="https://www.instagram.com/raman_e.v/" target="_blank">Instagram</a></span>.</p>
                          </div>
 
 
