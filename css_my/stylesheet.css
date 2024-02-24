@@ -322,14 +322,7 @@ input[type=submit] {
 }
 
 
-.svgfillunten {
 
-    margin-top: 0px;
-    margin-bottom: -40px ;
-    margin-left: -20px;
-    margin-right: -20px;
-
-}
 
 #ballon1 {
     margin-bottom: -1500px;
@@ -369,13 +362,7 @@ input[type=submit] {
 @media only screen and (max-width: 600px){
 
 
-.svgfilloben {
 
-    margin-top: -70px;
-    margin-left: -20px;
-    margin-right: -20px;
-
-    }
 .bewegung{
     height: 30vh!important;
 }
@@ -383,12 +370,7 @@ input[type=submit] {
 
 
 @media only screen and (min-width:601px) and (max-width:1000px) {
-    .svgfilloben {
-        margin-top: -110px;
-        margin-left: -20px;
-        margin-right: -20px;
 
-    }
 
     .bewegung{
         height: 30vh!important;
@@ -396,34 +378,19 @@ input[type=submit] {
 }
 
 @media only screen and (min-width:1001px) and (max-width:1300px) {
-    .svgfilloben {
-        margin-top: -180px;
-        margin-left: -20px;
-        margin-right: -20px;
 
-    }
     .bewegung{
         height: 30vh!important;
     }
 }
 @media only screen and (min-width:1301px) and (max-width:1500px) {
-    .svgfilloben {
-        margin-top: -200px;
-        margin-left: -20px;
-        margin-right: -20px;
 
-    }
     .bewegung{
         height: 30vh!important;
     }
 }
 @media only screen and (min-width:1501px) {
-    .svgfilloben {
-        margin-top: -230px;
-        margin-left: -20px;
-        margin-right: -20px;
 
-    }
     .bewegung{
         height: 30vh!important;
     }
