@@ -21,7 +21,7 @@
 
 .containercontact {
 
-    background-color: rgba(198, 198, 215, 0.46);
+    background-color: rgba(198, 198, 215, 0.46)!important;
     padding: 20px;
 }
 

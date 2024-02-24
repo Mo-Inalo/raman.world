@@ -34,8 +34,8 @@ include "templates/nav.php"
                 <h5 style="display: inline-block; font-weight: bolder"> E-Mail:</h5>
                 <h5 style="display: inline-block">info@raman.world</h5>
                 <br>
-                <h5 style="display: inline-block; font-weight: bolder"> Telefone</h5>
-                <h5 style="display: inline-block">0176xxxxxxx</h5>
+
+
                 <br>
                 <br>
 
@@ -56,12 +56,12 @@ include "templates/nav.php"
 
                 <p>Registergericht: Amtsgericht Bonn</p>
 
-                <p>Registernummer: xy</p>
-                <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE xy</p>
+          <!--      <p>Registernummer: xy</p>
+                <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE xy</p>-->
                 <br>
                 <p>Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:</p>
                 <h6>Mohamad Inalo</h6>
-                <h6>Grünerweg 43</h6>
+                <h6>mail@inalo.me</h6>
                 <h6>53175 Bonn</h6>
 
 

@@ -10,7 +10,7 @@ include "templates/nav.php"
 ?>
 
 
-    <div class="containercontact">
+    <div class="containercontact" style="background: url('images/background-photo.png')"">
         <!--
                 <svg class="svgfilloben" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                     <path fill="#818d16" fill-opacity="1.0" d="M0,320L40,309.3C80,299,160,277,240,256C320,235,400,213,480,218.7C560,224,640,256,720,261.3C800,267,880,245,960,240C1040,235,1120,245,1200,261.3C1280,277,1360,299,1400,309.3L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>

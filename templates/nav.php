@@ -50,14 +50,14 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                         Mitgliedschaft
                     </a>
                 </li>
-                <!--
+
                 <li class="navbar-item  ">
-                    <a href="/.php" class="nav-link text-light
-                    <?php echo ($page == 'Aktivitaeten') ? 'active' :''?>">
+                    <a href="/Aktivitäten.php" class="nav-link text-light
+                    <?php echo ($page == 'Aktivitäten') ? 'active' :''?>">
                         Aktivitäten
                     </a>
                 </li>
-
+                <!--
                 <li class="navbar-item   ">
                     <a href="/.php" class="nav-link text-light
                     <?php echo ($page == 'Gallerie') ? 'active' :''?>">
