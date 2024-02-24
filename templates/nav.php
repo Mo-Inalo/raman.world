@@ -41,7 +41,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
                 <li class="navbar-item " >
                     <a href="/index.php" class="nav-link text-light
                     <?php echo ($page == 'index') ? 'active' :''?> ">
-                        Home
+                        Startseite
                     </a>
                 </li>
                 <li class="navbar-item  ">
