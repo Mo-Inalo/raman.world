@@ -60,7 +60,7 @@ include "templates/nav.php"
                     </div>
 
                     <div id="colorbox6" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;  max-height: 100%; width: 100%">
-                        <p >Erkunige Mehr über unsere Sozialmeiden Kanälen auf <span class="satzunglink"><a href="https://www.facebook.com/RamanHSG" target="_blank">Facebook</a></span> und <span class="satzunglink"><a href="https://www.instagram.com/raman_e.v/" target="_blank">Instagram</a></span>.</p>
+                        <p >Erkundige mehr auf unsere Sozialmedien Kanälen auf <span class="satzunglink"><a href="https://www.facebook.com/RamanHSG" target="_blank">Facebook</a></span> und <span class="satzunglink"><a href="https://www.instagram.com/raman_e.v/" target="_blank">Instagram</a></span>.</p>
                          </div>
 
 
@@ -68,13 +68,13 @@ include "templates/nav.php"
                 <div class="row" style=" max-width: 99vw">
 
                     <div id="colorbox7" class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                        <p>Lass dich von unseren <span class="satzunglink"><a href="Aktivitäten.php" target="_blank">Aktivitäten</a></span> begeistern!</p>
                     </div>
 
 
 
-                    <div id="colorbox8" class="col-md centerlements bewegung mainfont;" style="opacity: 0.7;max-height: 100%; width: 100%">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor .</p>
+                    <div id="colorbox8" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100%">
+                        <p>Erlebe eine Tour durch unsere <span class="satzunglink"><a href="Galerie.php" target="_blank">Galerie</a></span> !</p>
                     </div>
 
 
