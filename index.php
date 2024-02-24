@@ -30,7 +30,7 @@ include "templates/nav.php"
                     <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
 
                     <a class="mainfont" href="Satzung.php">
-                        <button class="btn   btn-md btn-block" style="background-color: #dce8d9" >Satzung lesen</button>
+                        <button class="btn   btn-md btn-block text-white" style="background-color: #c10021" >Satzung lesen</button>
                     </a>
 
                 </div>
@@ -49,7 +49,7 @@ include "templates/nav.php"
                         </div>
                             <div class="row centerlements" style=" max-width: 99vw">
                         <a class="mainfont" href="Mitgliedschaft.php">
-                            <button class="btn btn-md btn-block" style="background-color: #dce8d9">Mitglied werden</button>
+                            <button class="btn btn-md btn-block text-white" style="background-color: #d1aa2c"d1aa2c>Mitglied werden</button>
                         </a>
                             </div>
                     </div>
@@ -81,7 +81,7 @@ include "templates/nav.php"
                     <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100%">
                         <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen! </h2>
                             <a class="mainfont" href="Kontakt.php">
-                                <button class="btn btn-md btn-block" style="background-color: #dce8d9">Kontakt aufnehmen</button>
+                                <button class="btn btn-md btn-block text-white" style="background-color: #139a16">Kontakt aufnehmen</button>
                             </a>
 
                     </div>
