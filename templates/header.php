@@ -3,7 +3,7 @@
 $page = basename($_SERVER['PHP_SELF'],'.php');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,3 +24,4 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
 
 </head>
 <body class="pagecolor">
+<main style="background: url('images/background-photo.png')">

@@ -1,5 +1,5 @@
 
-
+</main>
 <footer class="text-center text-white socialmeidachannels "  >
 
     <?php
@@ -12,3 +12,6 @@
 
 
 </footer>
+
+</body>
+</html>
