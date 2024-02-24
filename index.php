@@ -28,8 +28,9 @@ include "templates/nav.php"
 
                 <div id="colorbox2" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100%">
                     <h2  class="mainfont"  >Erfahre mehr über unsere Vision. </h2>
+
                     <a class="mainfont" href="Satzung.php">
-                        <button class="btn btn-dark  btn-sm btn-block">Satzung lesen</button>
+                        <button class="btn   btn-md btn-block" style="background-color: #dce8d9" >Satzung lesen</button>
                     </a>
 
                 </div>
@@ -43,11 +44,14 @@ include "templates/nav.php"
                 <div class="row" style=" max-width: 99vw">
 
                     <div id="colorbox4"  class="col-md centerlements bewegung mainfont" style="opacity: 0.7; max-height: 100%; width: 100% ">
+                        <div class="row p-2" style=" max-width: 99vw">
                         <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
-
+                        </div>
+                            <div class="row centerlements" style=" max-width: 99vw">
                         <a class="mainfont" href="Mitgliedschaft.php">
-                            <button class="btn   btn-md btn-block" style="background-color: #dce8d9">Mitglied werden</button>
+                            <button class="btn btn-md btn-block" style="background-color: #dce8d9">Mitglied werden</button>
                         </a>
+                            </div>
                     </div>
 
                     <div id="colorbox5" class="col-md centerlements bewegung mainfont" style=" opacity: 0.7; max-height: 100%; width: 100%">
@@ -77,7 +81,7 @@ include "templates/nav.php"
                     <div id="colorbox9" class="col-md centerlements bewegung mainfont" style="opacity: 0.7;max-height: 100%; width: 100%">
                         <h2  class="mainfont"  > Unterstütze uns mit deinen Ideen! </h2>
                             <a class="mainfont" href="Kontakt.php">
-                                <button class="btn btn-dark btn-lg btn-block">Kontakt aufnehmen</button>
+                                <button class="btn btn-md btn-block" style="background-color: #dce8d9">Kontakt aufnehmen</button>
                             </a>
 
                     </div>
