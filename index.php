@@ -46,7 +46,7 @@ include "templates/nav.php"
                         <h2 class="mainfont"> Werde Teil unserer Gesellschaft!</h2>
 
                         <a class="mainfont" href="Mitgliedschaft.php">
-                            <button class="btn btn-dark btn-md btn-block">Mitglied werden</button>
+                            <button class="btn   btn-md btn-block" style="background-color: #dce8d9">Mitglied werden</button>
                         </a>
                     </div>
 
