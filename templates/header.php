@@ -24,4 +24,3 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
 
 </head>
 <body class="pagecolor">
-<main style="background: url('images/background-photo.png'); color: black">

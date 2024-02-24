@@ -99,3 +99,5 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
 
     </div>
 </nav>
+
+<main style="background: url('images/background-photo.png'); ">
