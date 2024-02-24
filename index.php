@@ -35,7 +35,7 @@ include "templates/nav.php"
                 </div>
 
                 <div id="colorbox3" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ;max-height: 100%; width: 100% ">
-                    <h1 class="mainfont" > Blättere mal unseren <span class="satzunglink"><a href="Kontakt.php" target="_blank">Archive</a></span> durch!</h1>
+                    <h1 class="mainfont" > Blättere mal unseren <span class="satzunglink"><a href="Archive.php" target="_blank">Archive</a></span> durch!</h1>
 
 
                 </div>
