@@ -20,7 +20,7 @@ include "templates/nav.php"
 
                 <div id="colorbox1" class="col-md bewegung centerlements mainfont" style=" opacity: 0.7 ; max-height: 100%; width: 100%">
 
-                    <p class="mainfont">Herzlich Wilkommen auf der Startseite vom RAMAN e.V.</p>
+                    <p class="mainfont">Herzlich Willkommen auf der Startseite vom RAMAN e.V.</p>
 
 
 
