@@ -6,6 +6,7 @@ $page = basename($_SERVER['PHP_SELF'],'.php');
 <html lang="de">
 <head>
     <meta charset="UTF-8" />
+    <meta name="keywords" content="raman, e.V., Raman e.V., kurdischer Verein, kurdische studenten, kurden in europa, kurden in deutschland">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RAMAN | <?php echo $page == 'index'? $page='Startseite':$page ?></title>
     <link rel="icon" type="image/x-icon" href="/images/ramanlogo.png">
